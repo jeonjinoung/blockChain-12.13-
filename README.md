@@ -40,7 +40,7 @@
 3) 누구나 쉽게 정보 확인 가능
 4) 문서 관리의 불편함
 
-<img width="400" alt="42" src="https://user-images.githubusercontent.com/89626182/145740245-0f3f4f4d-127d-4304-951c-f6517bfd0ae5.png">
+<img width="800" height="800" alt="42" src="https://user-images.githubusercontent.com/89626182/145740245-0f3f4f4d-127d-4304-951c-f6517bfd0ae5.png">
 
 
 
