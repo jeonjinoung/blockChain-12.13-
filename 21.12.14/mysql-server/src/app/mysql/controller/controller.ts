@@ -1,4 +1,4 @@
-const db = require("../model/index.js");
+const db = require("../model/index.ts");
 const Tutorial = db.tutorial;
 const Op = db.sequelize.Op;
 // Create tutorial

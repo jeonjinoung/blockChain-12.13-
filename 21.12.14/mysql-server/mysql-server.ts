@@ -10,9 +10,9 @@ app.use(bodyParser.json());
 // Parse requests of content-type: application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: true }));
 // RESTful API route for DB
-app.use("/", require("./app/mysql/route/route.js"));
+app.use("/", require("./src/app/mysql/route/route.ts"));
 // DB Connection
-const db = require("./app/mysql/model/index.js");
+const db = require("./app/mysql/model/index.ts");
 db.sequelizeConfig.sync();
 // Default route for server status
 app.get("/", (req, res) => {

@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const tutorial = require("../controller/controller.js");
+const tutorial = require("../controller/controller.ts");
 // Create tutorial
 router.post("/api/tutorial", tutorial.create);
 // Retrieve all tutorials
@@ -10,4 +10,5 @@ router.get("/api/tutorial/:id", tutorial.findOne);
 router.put("/api/tutorial/:id", tutorial.update);
 // Delete tutorial by id
 router.delete("/api/tutorial/:id", tutorial.delete);
+
 module.exports = router;
