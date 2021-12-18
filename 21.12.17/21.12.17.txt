@@ -1,0 +1,2972 @@
+Welcome to Ubuntu 20.04.3 LTS (GNU/Linux 4.4.0-19041-Microsoft x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Fri Dec 17 09:13:14 KST 2021
+
+
+  System load:    0.52      Processes:              10
+  Usage of /home: unknown   Users logged in:        0
+  Memory usage:   82%       IPv4 address for wifi0: 192.168.0.102
+  Swap usage:     6%
+
+
+1 update can be applied immediately.
+1 of these updates is a standard security update.
+To see these additional updates run: apt list --upgradable
+
+
+
+This message is shown once a day. To disable it please create the
+/home/jeonjinyoung/.hushlogin file.
+jeonjinyoung@DESKTOP-9KIEGIH:~$
+jeonjinyoung@DESKTOP-9KIEGIH:~$ sudo su -
+[sudo] password for jeonjinyoung:
+Welcome to Ubuntu 20.04.3 LTS (GNU/Linux 4.4.0-19041-Microsoft x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Fri Dec 17 09:13:32 KST 2021
+
+  System load:    0.52      Processes:              13
+  Usage of /home: unknown   Users logged in:        0
+  Memory usage:   83%       IPv4 address for wifi0: 192.168.0.102
+  Swap usage:     6%
+
+
+1 update can be applied immediately.
+1 of these updates is a standard security update.
+To see these additional updates run: apt list --upgradable
+
+
+
+This message is shown once a day. To disable it please create the
+/root/.hushlogin file.
+croot@DESKTOP-9KIEGIH:~# cd usr/bin/passwd
+-bash: cd: usr/bin/passwd: No such file or directory
+root@DESKTOP-9KIEGIH:~# cd usr/bin#
+-bash: cd: usr/bin#: No such file or directory
+root@DESKTOP-9KIEGIH:~# cd usr/bin
+-bash: cd: usr/bin: No such file or directory
+root@DESKTOP-9KIEGIH:~# ls -al
+total 99960
+drwx------ 1 root root      4096 Dec 17 09:08 .
+drwxr-xr-x 1 root root      4096 Dec 13 10:41 ..
+-rw------- 1 root root      5715 Dec 16 22:05 .bash_history
+-rw-r--r-- 1 root root      3303 Dec 13 14:44 .bashrc
+-rw-r--r-- 1 root root         0 Dec 17 09:13 .motd_shown
+-rw------- 1 root root       771 Dec 17 09:08 .mysql_history
+drwxr-xr-x 1 root root      4096 Dec 16 09:17 .npm
+drwxr-xr-x 1 root root      4096 Dec 13 14:59 .nvm
+-rw-r--r-- 1 root root       161 Dec  5  2019 .profile
+-rw------- 1 root root     11158 Dec 16 22:05 .viminfo
+-rw-r--r-- 1 root root       169 Dec 15 10:43 .wget-hsts
+drwxr-xr-x 1 root root      4096 Dec 16 12:43 aaa
+-rw-r--r-- 1 root root 102167060 Jun 16  2018 linux-4.17.2.tar.xz
+-rwxr-xr-x 1 root root        35 Dec 16 12:39 script.sh
+-rw-r--r-- 1 root root    152162 Dec 15 10:39 wget-log
+root@DESKTOP-9KIEGIH:~# cd etc/passwd
+-bash: cd: etc/passwd: No such file or directory
+root@DESKTOP-9KIEGIH:~# ls -l /usr/bin/passwd
+-rwsr-xr-x 1 root root 68208 Jul 15 07:08 /usr/bin/passwd
+root@DESKTOP-9KIEGIH:~# cd /usr/bin
+root@DESKTOP-9KIEGIH:/usr/bin# ls -al
+total 212360
+drwxr-xr-x 1 root   root        4096 Dec 15 10:03  .
+drwxr-xr-x 1 root   root        4096 Aug 20 06:42  ..
+lrwxrwxrwx 1 root   root           4 Feb 17  2020  NF -> col1
+-rwxr-xr-x 1 root   root      141856 Oct 12 14:53  VGAuthService
+lrwxrwxrwx 1 root   root           1 Feb  8  2020  X11 -> .
+-rwxr-xr-x 1 root   root       59736 Sep  5  2019 '['
+-rwxr-xr-x 1 root   root       31248 May 20  2020  aa-enabled
+-rwxr-xr-x 1 root   root       35344 May 20  2020  aa-exec
+-rwxr-xr-x 1 root   root        7415 Oct 26 21:27  add-apt-repository
+-rwxr-xr-x 1 root   root       30952 Jul 21  2020  addpart
+-rwxr-xr-x 1 root   root        2558 Dec  5  2019  apport-bug
+-rwxr-xr-x 1 root   root       13367 Oct 18 20:48  apport-cli
+lrwxrwxrwx 1 root   root          10 Oct 18 20:48  apport-collect -> apport-bug
+-rwxr-xr-x 1 root   root        2068 Oct 18 20:48  apport-unpack
+-rwxr-xr-x 1 root   root       14648 Feb 29  2020  appres
+lrwxrwxrwx 1 root   root           6 Feb 26  2020  apropos -> whatis
+-rwxr-xr-x 1 root   root       18824 Jun 15  2021  apt
+lrwxrwxrwx 1 root   root          18 Oct 26 21:27  apt-add-repository -> add-apt-repository
+-rwxr-xr-x 1 root   root       88536 Jun 15  2021  apt-cache
+-rwxr-xr-x 1 root   root       31192 Jun 15  2021  apt-cdrom
+-rwxr-xr-x 1 root   root       27016 Jun 15  2021  apt-config
+-rwxr-xr-x 1 root   root       27104 Jun 15  2021  apt-extracttemplates
+-rwxr-xr-x 1 root   root      281056 Jun 15  2021  apt-ftparchive
+-rwxr-xr-x 1 root   root       47576 Jun 15  2021  apt-get
+-rwxr-xr-x 1 root   root       27931 Jun 15  2021  apt-key
+-rwxr-xr-x 1 root   root       63960 Jun 15  2021  apt-mark
+-rwxr-xr-x 1 root   root       47504 Jun 15  2021  apt-sortpkgs
+-rwxr-xr-x 1 root   root       39288 Sep  5  2019  arch
+-rwxr-xr-x 1 root   root     4704400 Nov  6 04:03  aria_chk
+-rwxr-xr-x 1 root   root     4472880 Nov  6 04:03  aria_dump_log
+-rwxr-xr-x 1 root   root     4489392 Nov  6 04:03  aria_ftdump
+-rwxr-xr-x 1 root   root     4518704 Nov  6 04:03  aria_pack
+-rwxr-xr-x 1 root   root     4658512 Nov  6 04:03  aria_read_log
+-rwsr-sr-x 1 daemon daemon     55560 Nov 13  2018  at
+lrwxrwxrwx 1 root   root           2 Nov 13  2018  atq -> at
+lrwxrwxrwx 1 root   root           2 Nov 13  2018  atrm -> at
+-rwxr-xr-x 1 root   root         402 Mar 22  2020  automat-visualize3
+lrwxrwxrwx 1 root   root          21 Aug 20 06:40  awk -> /etc/alternatives/awk
+-rwxr-xr-x 1 root   root       59768 Sep  5  2019  b2sum
+-rwxr-xr-x 1 root   root       43352 Sep  5  2019  base32
+-rwxr-xr-x 1 root   root       43352 Sep  5  2019  base64
+-rwxr-xr-x 1 root   root       39256 Sep  5  2019  basename
+-rwxr-xr-x 1 root   root     1183448 Jun 19  2020  bash
+-rwxr-xr-x 1 root   root        6794 Jun 19  2020  bashbug
+-rwxr-xr-x 1 root   root         152 Nov 13  2018  batch
+-rwxr-xr-x 1 root   root      101064 Jan 15  2019  bc
+-rwxr-xr-x 1 root   root      146096 Sep 10  2020  boltctl
+-rwxr-xr-x 1 root   root       63840 Sep  8 03:37  bootctl
+-rwxr-xr-x 1 root   root       14488 Mar 30  2020  bsd-from
+-rwxr-sr-x 1 root   tty        14488 Mar 30  2020  bsd-write
+-rwxr-xr-x 1 root   root      819296 Feb 16  2020  btrfs
+-rwxr-xr-x 1 root   root      466464 Feb 16  2020  btrfs-convert
+-rwxr-xr-x 1 root   root      433760 Feb 16  2020  btrfs-find-root
+-rwxr-xr-x 1 root   root      462368 Feb 16  2020  btrfs-image
+-rwxr-xr-x 1 root   root      441888 Feb 16  2020  btrfs-map-logical
+-rwxr-xr-x 1 root   root      441888 Feb 16  2020  btrfs-select-super
+lrwxrwxrwx 1 root   root           5 Feb 16  2020  btrfsck -> btrfs
+-rwxr-xr-x 1 root   root      437792 Feb 16  2020  btrfstune
+-rwxr-xr-x 3 root   root       39144 Sep  6  2019  bunzip2
+-rwxr-xr-x 1 root   root       88416 Sep  8 03:37  busctl
+-rwxr-xr-x 1 root   root     2172376 Nov 25 04:02  busybox
+-rwxr-xr-x 1 root   root        8363 Feb 17  2020  byobu
+-rwxr-xr-x 1 root   root         996 Feb 17  2020  byobu-config
+-rwxr-xr-x 1 root   root        4774 Feb 17  2020  byobu-ctrl-a
+-rwxr-xr-x 1 root   root        1295 Feb 17  2020  byobu-disable
+-rwxr-xr-x 1 root   root        1341 Feb 17  2020  byobu-disable-prompt
+-rwxr-xr-x 1 root   root        1182 Feb 17  2020  byobu-enable
+-rwxr-xr-x 1 root   root        1453 Feb 17  2020  byobu-enable-prompt
+-rwxr-xr-x 1 root   root        1351 Feb 17  2020  byobu-export
+-rwxr-xr-x 1 root   root        6440 Feb 17  2020  byobu-janitor
+-rwxr-xr-x 1 root   root        1506 Feb 17  2020  byobu-keybindings
+-rwxr-xr-x 1 root   root        3329 Feb 17  2020  byobu-launch
+-rwxr-xr-x 1 root   root        1910 Feb 17  2020  byobu-launcher
+-rwxr-xr-x 1 root   root        2459 Feb 17  2020  byobu-launcher-install
+-rwxr-xr-x 1 root   root        1561 Feb 17  2020  byobu-launcher-uninstall
+-rwxr-xr-x 1 root   root        3348 Feb 17  2020  byobu-layout
+-rwxr-xr-x 1 root   root        1156 Feb 17  2020  byobu-prompt
+-rwxr-xr-x 1 root   root        1410 Feb 17  2020  byobu-quiet
+-rwxr-xr-x 1 root   root        3298 Feb 17  2020  byobu-reconnect-sockets
+lrwxrwxrwx 1 root   root           5 Feb 17  2020  byobu-screen -> byobu
+-rwxr-xr-x 1 root   root        1452 Feb 17  2020  byobu-select-backend
+-rwxr-xr-x 1 root   root        5123 Feb 17  2020  byobu-select-profile
+-rwxr-xr-x 1 root   root        1012 Feb 17  2020  byobu-select-session
+-rwxr-xr-x 1 root   root        1600 Feb 17  2020  byobu-shell
+-rwxr-xr-x 1 root   root        1306 Feb 17  2020  byobu-silent
+-rwxr-xr-x 1 root   root        6015 Feb 17  2020  byobu-status
+-rwxr-xr-x 1 root   root        1207 Feb 17  2020  byobu-status-detail
+lrwxrwxrwx 1 root   root           5 Feb 17  2020  byobu-tmux -> byobu
+-rwxr-xr-x 1 root   root        4667 Feb 17  2020  byobu-ugraph
+-rwxr-xr-x 1 root   root       11996 Feb 17  2020  byobu-ulevel
+-rwxr-xr-x 3 root   root       39144 Sep  6  2019  bzcat
+lrwxrwxrwx 1 root   root           6 Sep  6  2019  bzcmp -> bzdiff
+-rwxr-xr-x 1 root   root        2227 Sep  6  2019  bzdiff
+lrwxrwxrwx 1 root   root           6 Sep  6  2019  bzegrep -> bzgrep
+-rwxr-xr-x 1 root   root        4877 Sep  4  2019  bzexe
+lrwxrwxrwx 1 root   root           6 Sep  6  2019  bzfgrep -> bzgrep
+-rwxr-xr-x 1 root   root        3775 Sep  6  2019  bzgrep
+-rwxr-xr-x 3 root   root       39144 Sep  6  2019  bzip2
+-rwxr-xr-x 1 root   root       18584 Sep  6  2019  bzip2recover
+lrwxrwxrwx 1 root   root           6 Sep  6  2019  bzless -> bzmore
+-rwxr-xr-x 1 root   root        1297 Sep  6  2019  bzmore
+-rwxr-xr-x 1 root   root        6332 Nov 24 22:20  c_rehash
+lrwxrwxrwx 1 root   root           4 Mar 30  2020  cal -> ncal
+-rwxr-xr-x 1 root   root       35464 Mar 30  2020  calendar
+lrwxrwxrwx 1 root   root           3 Feb 26  2020  captoinfo -> tic
+-rwxr-xr-x 1 root   root       43416 Sep  5  2019  cat
+-rwxr-xr-x 1 root   root        3330 Dec 16  2020  catchsegv
+-rwxr-xr-x 1 root   root       39616 Feb 26  2020  catman
+-rwxr-xr-x 1 root   root         853 Oct 19  2019  cautious-launcher
+-rwxr-xr-x 1 root   root         380 Feb 17  2021  cftp3
+-rwxr-sr-x 1 root   shadow     84512 Jul 15 07:08  chage
+lrwxrwxrwx 1 root   root          11 Dec 17  2019  chardet3 -> chardetect3
+-rwxr-xr-x 1 root   root         389 Dec 17  2019  chardetect3
+-rwxr-xr-x 1 root   root       14656 Feb 14  2020  chattr
+-rwxr-xr-x 1 root   root       72024 Sep  5  2019  chcon
+-rwxr-xr-x 1 root   root        2771 Sep 28  2020  check-language-support
+-rwsr-xr-x 1 root   root       85064 Jul 15 07:08  chfn
+-rwxr-xr-x 1 root   root       72024 Sep  5  2019  chgrp
+-rwxr-xr-x 1 root   root       63864 Sep  5  2019  chmod
+-rwxr-xr-x 1 root   root       51432 Jul 21  2020  choom
+-rwxr-xr-x 1 root   root       72024 Sep  5  2019  chown
+-rwxr-xr-x 1 root   root       39144 Jul 21  2020  chrt
+-rwsr-xr-x 1 root   root       53040 Jul 15 07:08  chsh
+-rwxr-xr-x 1 root   root       14408 May 10  2019  chvt
+-rwxr-xr-x 1 root   root      149904 Mar 27  2020  ckbcomp
+-rwxr-xr-x 1 root   root         386 Feb 17  2021  ckeygen3
+-rwxr-xr-x 1 root   root       39256 Sep  5  2019  cksum
+-rwxr-xr-x 1 root   root       14656 Feb 26  2020  clear
+-rwxr-xr-x 1 root   root       14568 Jun 19  2020  clear_console
+-rwxr-xr-x 1 root   root         390 Nov  3 22:58  cloud-id
+-rwxr-xr-x 1 root   root         394 Nov  3 22:58  cloud-init
+-rwxr-xr-x 1 root   root        2108 Nov  3 04:35  cloud-init-per
+-rwxr-xr-x 1 root   root       51296 Apr  8  2019  cmp
+-rwxr-xr-x 1 root   root       14328 May 10  2019  codepage
+-rwxr-xr-x 1 root   root       18584 Mar 30  2020  col
+-rwxr-xr-x 1 root   root         963 Feb 17  2020  col1
+lrwxrwxrwx 1 root   root           4 Feb 17  2020  col2 -> col1
+lrwxrwxrwx 1 root   root           4 Feb 17  2020  col3 -> col1
+lrwxrwxrwx 1 root   root           4 Feb 17  2020  col4 -> col1
+lrwxrwxrwx 1 root   root           4 Feb 17  2020  col5 -> col1
+lrwxrwxrwx 1 root   root           4 Feb 17  2020  col6 -> col1
+lrwxrwxrwx 1 root   root           4 Feb 17  2020  col7 -> col1
+lrwxrwxrwx 1 root   root           4 Feb 17  2020  col8 -> col1
+lrwxrwxrwx 1 root   root           4 Feb 17  2020  col9 -> col1
+-rwxr-xr-x 1 root   root       14488 Mar 30  2020  colcrt
+-rwxr-xr-x 1 root   root       14488 Mar 30  2020  colrm
+-rwxr-xr-x 1 root   root       14504 Mar 30  2020  column
+-rwxr-xr-x 1 root   root       43384 Sep  5  2019  comm
+lrwxrwxrwx 1 root   root          11 Oct 19  2019  compose -> run-mailcap
+-rwxr-xr-x 1 root   root         382 Feb 17  2021  conch3
+-rwxr-xr-x 1 root   root       15088 Oct 19  2020  corelist
+-rwxr-xr-x 1 root   root      153976 Sep  5  2019  cp
+-rwxr-xr-x 1 root   root        8155 Oct 19  2020  cpan
+-rwxr-xr-x 1 root   root        8176 Oct 19  2020  cpan5.30-x86_64-linux-gnu
+-rwxr-xr-x 1 root   root      165504 Aug 25 19:52  cpio
+-rwxr-sr-x 1 root   crontab    43720 Feb 14  2020  crontab
+-rwxr-xr-x 1 root   root       55672 Sep  5  2019  csplit
+-rwxr-xr-x 1 root   root         960 Feb 17  2020  ctail
+lrwxrwxrwx 1 root   root           6 Feb 14  2020  ctstat -> lnstat
+-rwxr-xr-x 1 root   root      239848 Sep 10 23:28  curl
+-rwxr-xr-x 1 root   root       47480 Sep  5  2019  cut
+-rwxr-xr-x 1 root   root      273096 Jan 19  2021  cvtsudoers
+-rwxr-xr-x 1 root   root      129816 Jul 19  2019  dash
+-rwxr-xr-x 1 root   root      108920 Sep  5  2019  date
+-rwxr-xr-x 1 root   root        1380 Jul 30 20:22  dbilogstrip
+-rwxr-xr-x 1 root   root        6206 Jul 30 20:22  dbiprof
+-rwxr-xr-x 1 root   root        5394 Jul 30 20:22  dbiproxy
+-rwxr-xr-x 1 root   root       14480 Jun 12  2020  dbus-cleanup-sockets
+-rwxr-xr-x 1 root   root      249032 Jun 12  2020  dbus-daemon
+-rwxr-xr-x 1 root   root       34960 Jun 12  2020  dbus-launch
+-rwxr-xr-x 1 root   root       30864 Jun 12  2020  dbus-monitor
+-rwxr-xr-x 1 root   root       14480 Jun 12  2020  dbus-run-session
+-rwxr-xr-x 1 root   root       30864 Jun 12  2020  dbus-send
+-rwxr-xr-x 1 root   root       14480 Jun 12  2020  dbus-update-activation-environment
+-rwxr-xr-x 1 root   root       14480 Jun 12  2020  dbus-uuidgen
+-rwxr-xr-x 1 root   root       26928 Jul 23 16:14  dbxtool
+-rwxr-xr-x 1 root   root       80256 Sep  5  2019  dd
+-rwxr-xr-x 1 root   root       14408 May 10  2019  deallocvt
+-rwxr-xr-x 1 root   root       21328 Jun 22  2019  deb-systemd-helper
+-rwxr-xr-x 1 root   root        4430 Jun 22  2019  deb-systemd-invoke
+-rwxr-xr-x 1 root   root        2859 Aug  3  2019  debconf
+-rwxr-xr-x 1 root   root       11541 Aug  3  2019  debconf-apt-progress
+-rwxr-xr-x 1 root   root         608 Aug  3  2019  debconf-communicate
+-rwxr-xr-x 1 root   root        1719 Aug  3  2019  debconf-copydb
+-rwxr-xr-x 1 root   root         647 Aug  3  2019  debconf-escape
+-rwxr-xr-x 1 root   root        2935 Aug  3  2019  debconf-set-selections
+-rwxr-xr-x 1 root   root        1827 Aug  3  2019  debconf-show
+-rwxr-xr-x 1 root   root       23440 Feb 14  2020  debian-distro-info
+-rwxr-xr-x 1 root   root       30952 Jul 21  2020  delpart
+-rwxr-xr-x 1 root   root       49552 Oct 27 20:00  delv
+-rwxr-xr-x 1 root   root       93128 Sep  5  2019  df
+-rwxr-xr-x 1 root   root      104752 Jul 23 16:14  dfu-tool
+-rwxr-xr-x 1 root   root        2446 Jan 26  2020  dh_bash-completion
+-rwxr-xr-x 1 root   root        1065 Jul 30 20:22  dh_perl_dbi
+-rwxr-xr-x 1 root   root      219480 Apr  8  2019  diff
+-rwxr-xr-x 1 root   root       67800 Apr  8  2019  diff3
+-rwxr-xr-x 1 root   root      138032 Oct 27 20:00  dig
+-rwxr-xr-x 1 root   root      142144 Sep  5  2019  dir
+-rwxr-xr-x 1 root   root       47456 Sep  5  2019  dircolors
+-rwxr-xr-x 1 root   root      583536 Jan  7  2021  dirmngr
+-rwxr-xr-x 1 root   root      121920 Jan  7  2021  dirmngr-client
+-rwxr-xr-x 1 root   root       39256 Sep  5  2019  dirname
+lrwxrwxrwx 1 root   root          18 Feb 14  2020  distro-info -> ubuntu-distro-info
+-rwxr-xr-x 1 root   root       84440 Jul 21  2020  dmesg
+lrwxrwxrwx 1 root   root           8 Nov  7  2019  dnsdomainname -> hostname
+-rwxr-xr-x 1 root   root        9314 Aug  4 10:00  do-release-upgrade
+lrwxrwxrwx 1 root   root           8 Nov  7  2019  domainname -> hostname
+-rwxr-xr-x 1 root   root      309944 Mar 23  2020  dpkg
+-rwxr-xr-x 1 root   root      178728 Mar 23  2020  dpkg-deb
+-rwxr-xr-x 1 root   root      154208 Mar 23  2020  dpkg-divert
+-rwxr-xr-x 1 root   root       20514 Mar 23  2020  dpkg-maintscript-helper
+-rwxr-xr-x 1 root   root      166488 Mar 23  2020  dpkg-query
+-rwxr-xr-x 1 root   root      125424 Mar 23  2020  dpkg-split
+-rwxr-xr-x 1 root   root       63760 Mar 23  2020  dpkg-statoverride
+-rwxr-xr-x 1 root   root       84472 Mar 23  2020  dpkg-trigger
+-rwxr-xr-x 1 root   root      108920 Sep  5  2019  du
+-rwxr-xr-x 1 root   root      178712 May 10  2019  dumpkeys
+-rwxr-xr-x 1 root   root        2806 Oct 29  2018  eatmydata
+-rwxr-xr-x 1 root   root        7295 Feb 26  2020  ec2metadata
+-rwxr-xr-x 1 root   root       39256 Sep  5  2019  echo
+-rwxr-xr-x 1 root   root       55504 Feb 22  2020  ed
+lrwxrwxrwx 1 root   root          11 Oct 19  2019  edit -> run-mailcap
+lrwxrwxrwx 1 root   root          24 Aug 20 06:40  editor -> /etc/alternatives/editor
+-rwxr-xr-x 1 root   root       74448 Feb 29  2020  editres
+-rwxr-xr-x 1 root   root          28 Jan 29  2020  egrep
+-rwxr-xr-x 1 root   root       35680 Jul  8  2019  eject
+-rwxr-xr-x 1 root   root       42111 Oct 19  2020  enc2xs
+-rwxr-xr-x 1 root   root        3066 Oct 19  2020  encguess
+-rwxr-xr-x 1 root   root       43352 Sep  5  2019  env
+-rwxr-xr-x 1 root   root       43240 Mar 23  2020  envsubst
+-rwxr-xr-x 1 root   root      206336 Mar 21  2020  eqn
+lrwxrwxrwx 1 root   root          20 Aug 20 06:40  ex -> /etc/alternatives/ex
+-rwxr-xr-x 1 root   root       43384 Sep  5  2019  expand
+-rwxr-sr-x 1 root   shadow     31312 Jul 15 07:08  expiry
+-rwxr-xr-x 1 root   root       55640 Sep  5  2019  expr
+-rwxr-xr-x 1 root   root       80248 Sep  5  2019  factor
+-rwxr-xr-x 1 root   root       23136 Jul 15 07:08  faillog
+-rwxr-xr-x 1 root   root       35048 Jul 21  2020  fallocate
+-rwxr-xr-x 1 root   root       39256 Sep  5  2019  false
+-rwxr-xr-x 1 root   root       14408 May 10  2019  fgconsole
+-rwxr-xr-x 1 root   root          28 Jan 29  2020  fgrep
+-rwxr-xr-x 1 root   root       97104 Oct 27  2019  filan
+-rwxr-xr-x 1 root   root       27104 Jan 17  2020  file
+-rwxr-xr-x 1 root   root        2152 Sep 10  2020  finalrd
+-rwxr-xr-x 1 root   root       35096 Jul 21  2020  fincore
+-rwxr-xr-x 1 root   root      320160 Feb 18  2020  find
+-rwxr-xr-x 1 root   root       73128 Jul 21  2020  findmnt
+-rwxr-xr-x 1 root   root       35128 Jul 21  2020  flock
+-rwxr-xr-x 1 root   root       47448 Sep  5  2019  fmt
+-rwxr-xr-x 1 root   root       43352 Sep  5  2019  fold
+-rwxr-xr-x 1 root   root       26864 Sep  9 21:59  free
+lrwxrwxrwx 1 root   root          22 Aug 20 06:42  from -> /etc/alternatives/from
+lrwxrwxrwx 1 root   root          21 Aug 20 06:42  ftp -> /etc/alternatives/ftp
+-rwxr-xr-x 1 root   root       40184 Nov 12  2019  fuser
+-rwsr-xr-x 1 root   root       39144 Mar  7  2020  fusermount
+-rwxr-xr-x 1 root   root       76080 Jul 23 16:14  fwupdagent
+-rwxr-xr-x 1 root   root       72200 Jul 23 16:14  fwupdate
+-rwxr-xr-x 1 root   root      158000 Jul 23 16:14  fwupdmgr
+-rwxr-xr-x 1 root   root      347056 Jul 23 16:14  fwupdtool
+-rwxr-xr-x 1 root   root       22912 Jul 23 16:14  fwupdtpmevlog
+-rwxr-xr-x 1 root   root         915 Nov  6 04:03  galera_new_cluster
+-rwxr-xr-x 1 root   root        3358 Nov  6 04:03  galera_recovery
+-rwxr-xr-x 1 root   root       22920 Jul 12 23:56  gapplication
+-rwxr-xr-x 1 root   root      711136 Nov  4  2019  gawk
+-rwxr-xr-x 1 root   root       51592 Jul 12 23:56  gdbus
+lrwxrwxrwx 1 root   root           3 Mar 21  2020  geqn -> eqn
+-rwxr-xr-x 1 root   root       35112 Dec 16  2020  getconf
+-rwxr-xr-x 1 root   root       39576 Dec 16  2020  getent
+-rwxr-xr-x 1 root   root       14408 May 10  2019  getkeycodes
+-rwxr-xr-x 1 root   root       22760 Jul 21  2020  getopt
+-rwxr-xr-x 1 root   root       43240 Mar 23  2020  gettext
+-rwxr-xr-x 1 root   root        4629 Mar 23  2020  gettext.sh
+lrwxrwxrwx 1 root   root          12 Oct 11  2019  ginstall-info -> install-info
+-rwxr-xr-x 1 root   root       92568 Jul 12 23:56  gio
+lrwxrwxrwx 1 root   root          49 Jul 12 23:56  gio-querymodules -> ../lib/x86_64-linux-gnu/glib-2.0/gio-querymodules
+-rwxr-xr-x 1 root   root     3093072 Sep  9 20:42  git
+lrwxrwxrwx 1 root   root           3 Sep  9 20:42  git-receive-pack -> git
+-rwxr-xr-x 1 root   root     1773344 Sep  9 20:42  git-shell
+lrwxrwxrwx 1 root   root           3 Sep  9 20:42  git-upload-archive -> git
+lrwxrwxrwx 1 root   root           3 Sep  9 20:42  git-upload-pack -> git
+lrwxrwxrwx 1 root   root          53 Jul 12 23:56  glib-compile-schemas -> ../lib/x86_64-linux-gnu/glib-2.0/glib-compile-schemas
+-rwsr-xr-x 1 root   root       88464 Jul 15 07:08  gpasswd
+-rwxr-xr-x 1 root   root     1066992 Jan  7  2021  gpg
+-rwxr-xr-x 1 root   root      418856 Jan  7  2021  gpg-agent
+-rwxr-xr-x 1 root   root      167072 Jan  7  2021  gpg-connect-agent
+-rwxr-xr-x 1 root   root      208072 Jan  7  2021  gpg-wks-server
+-rwxr-xr-x 1 root   root        3516 Jan  7  2021  gpg-zip
+-rwxr-xr-x 1 root   root      895272 Jan  7  2021  gpgcompose
+-rwxr-xr-x 1 root   root      178848 Jan  7  2021  gpgconf
+-rwxr-xr-x 1 root   root       35200 Jan  7  2021  gpgparsemail
+-rwxr-xr-x 1 root   root      519416 Jan  7  2021  gpgsm
+-rwxr-xr-x 1 root   root       88840 Jan  7  2021  gpgsplit
+-rwxr-xr-x 1 root   root      155264 Jan  7  2021  gpgtar
+-rwxr-xr-x 1 root   root      457880 Jan  7  2021  gpgv
+lrwxrwxrwx 1 root   root           3 Mar 21  2020  gpic -> pic
+-rwxr-xr-x 1 root   root      199136 Jan 29  2020  grep
+-rwxr-xr-x 1 root   root       22840 Jul 12 23:56  gresource
+-rwxr-xr-x 1 root   root      124448 Mar 21  2020  groff
+-rwxr-xr-x 1 root   root        2776 Mar 21  2020  grog
+-rwxr-xr-x 1 root   root      186304 Mar 21  2020  grops
+-rwxr-xr-x 1 root   root      132672 Mar 21  2020  grotty
+-rwxr-xr-x 1 root   root       39256 Sep  5  2019  groups
+-rwxr-xr-x 1 root   root       24522 Feb 26  2020  growpart
+-rwxr-xr-x 1 root   root       31112 Jul 12 23:56  gsettings
+lrwxrwxrwx 1 root   root           3 Mar 21  2020  gtbl -> tbl
+-rwxr-xr-x 2 root   root        2346 Dec 14  2019  gunzip
+-rwxr-xr-x 1 root   root        6376 Dec 14  2019  gzexe
+-rwxr-xr-x 1 root   root       97496 Dec 14  2019  gzip
+-rwxr-xr-x 1 root   root       29224 Oct 19  2020  h2ph
+-rwxr-xr-x 1 root   root       60866 Oct 19  2020  h2xs
+lrwxrwxrwx 1 root   root           7 Mar 30  2020  hd -> hexdump
+-rwxr-xr-x 1 root   root       47480 Sep  5  2019  head
+-rwxr-xr-x 1 root   root        2514 Jan 30  2020  helpztags
+-rwxr-xr-x 1 root   root       35072 Mar 30  2020  hexdump
+-rwxr-xr-x 1 root   root      105232 Oct 27 20:00  host
+-rwxr-xr-x 1 root   root       39256 Sep  5  2019  hostid
+-rwxr-xr-x 1 root   root       26856 Nov  7  2019  hostname
+-rwxr-xr-x 1 root   root       26848 Sep  8 03:37  hostnamectl
+-rwxr-xr-x 1 root   root      189304 Dec  4  2019  htop
+-rwxr-xr-x 1 root   root       10830 Sep  4 07:17  hwe-support-status
+lrwxrwxrwx 1 root   root           7 Jul 21  2020  i386 -> setarch
+-rwxr-xr-x 1 root   root       68000 Dec 16  2020  iconv
+-rwxr-xr-x 1 root   root       47480 Sep  5  2019  id
+-rwxr-xr-x 1 root   root      317176 Oct 11  2019  info
+lrwxrwxrwx 1 root   root          29 Aug 20 06:42  infobrowser -> /etc/alternatives/infobrowser
+-rwxr-xr-x 1 root   root       63880 Feb 26  2020  infocmp
+lrwxrwxrwx 1 root   root           3 Feb 26  2020  infotocap -> tic
+-rwxr-xr-x 1 root   root     3710656 Nov  6 04:03  innochecksum
+-rwxr-xr-x 1 root   root      456518 Nov  6 04:01  innotop
+-rwxr-xr-x 1 root   root      158112 Sep  5  2019  install
+-rwxr-xr-x 1 root   root      118008 Oct 11  2019  install-info
+-rwxr-xr-x 1 root   root        4370 Oct 19  2020  instmodsh
+-rwxr-xr-x 1 root   root       30952 Jul 21  2020  ionice
+-rwxr-xr-x 1 root   root      611960 Feb 14  2020  ip
+-rwxr-xr-x 1 root   root       35120 Jul 21  2020  ipcmk
+-rwxr-xr-x 1 root   root       35048 Jul 21  2020  ipcrm
+-rwxr-xr-x 1 root   root       67816 Jul 21  2020  ipcs
+lrwxrwxrwx 1 root   root          28 Feb 28  2020  iptables-xml -> ../sbin/xtables-legacy-multi
+-rwxr-xr-x 1 root   root       14536 Dec  7  2019  ischroot
+lrwxrwxrwx 1 root   root          14 Mar 18  2021  iscsiadm -> /sbin/iscsiadm
+-rwxr-xr-x 1 root   root       55672 Sep  5  2019  join
+-rwxr-xr-x 1 root   root       80120 Sep  8 03:37  journalctl
+-rwxr-xr-x 1 root   root        4667 Oct 19  2020  json_pp
+lrwxrwxrwx 1 root   root          26 Aug 20 06:42  jsondiff -> /etc/alternatives/jsondiff
+-rwxr-xr-x 1 root   root        3662 Sep  5  2019  jsonpatch
+-rwxr-xr-x 1 root   root        1004 Sep  5  2019  jsonpatch-jsondiff
+-rwxr-xr-x 1 root   root        1838 Jan 24  2020  jsonpointer
+-rwxr-xr-x 1 root   root         397 Jan 24  2020  jsonschema
+-rwxr-xr-x 1 root   root       14408 May 10  2019  kbd_mode
+-rwxr-xr-x 1 root   root       14408 May 10  2019  kbdinfo
+-rwxr-xr-x 1 root   root      179168 Jan  7  2021  kbxutil
+lrwxrwxrwx 1 root   root           7 Jan 16  2014  keep-one-running -> run-one
+-rwxr-xr-x 1 root   root        5191 Apr  2  2020  kernel-install
+-rwxr-xr-x 1 root   root         385 Mar 14  2020  keyring
+-rwxr-xr-x 1 root   root       30952 Sep  9 21:59  kill
+-rwxr-xr-x 1 root   root       32024 Nov 12  2019  killall
+-rwxr-xr-x 1 root   root      174424 Mar 12  2020  kmod
+-rwxr-xr-x 1 root   root       14472 May  4  2019  kmodsign
+-rwxr-xr-x 1 root   root         624 Aug 28  2020  landscape-sysinfo
+-rwxr-xr-x 1 root   root       47336 Jul 21  2020  last
+lrwxrwxrwx 1 root   root           4 Jul 21  2020  lastb -> last
+-rwxr-xr-x 1 root   root       32416 Jul 15 07:08  lastlog
+-rwxr-xr-x 1 root   root        7786 Dec 14  2018  lcf
+-rwxr-xr-x 1 root   root        5427 Dec 16  2020  ldd
+-rwxr-xr-x 1 root   root      180064 Jul  2  2020  less
+-rwxr-xr-x 1 root   root       14656 Jul  2  2020  lessecho
+lrwxrwxrwx 1 root   root           8 Jul  2  2020  lessfile -> lesspipe
+-rwxr-xr-x 1 root   root       24288 Jul  2  2020  lesskey
+-rwxr-xr-x 1 root   root        8564 Sep  3  2019  lesspipe
+-rwxr-xr-x 1 root   root      101320 Feb 26  2020  lexgrog
+-rwxr-xr-x 1 root   root       15775 Oct 19  2020  libnetcfg
+-rwxr-xr-x 1 root   root       39256 Sep  5  2019  link
+-rwxr-xr-x 1 root   root        4090 Jun 26  2020  linux-check-removal
+-rwxr-xr-x 1 root   root        6320 Jun 26  2020  linux-update-symlinks
+-rwxr-xr-x 1 root   root        2698 Jul  8 05:19  linux-version
+lrwxrwxrwx 1 root   root           7 Jul 21  2020  linux32 -> setarch
+lrwxrwxrwx 1 root   root           7 Jul 21  2020  linux64 -> setarch
+-rwxr-xr-x 1 root   root       15080 Feb 29  2020  listres
+-rwxr-xr-x 1 root   root       76160 Sep  5  2019  ln
+-rwxr-xr-x 1 root   root       31240 Feb 14  2020  lnstat
+-rwxr-xr-x 1 root   root      215624 May 10  2019  loadkeys
+-rwxr-xr-x 1 root   root       34952 May 10  2019  loadunimap
+-rwxr-xr-x 1 root   root       58944 Dec 16  2020  locale
+-rwxr-xr-x 1 root   root       14496 Aug  4 23:53  locale-check
+-rwxr-xr-x 1 root   root       26848 Sep  8 03:37  localectl
+-rwxr-xr-x 1 root   root      334808 Dec 16  2020  localedef
+-rwxr-xr-x 1 root   root       52040 Jul 21  2020  logger
+-rwxr-xr-x 1 root   root       57104 Jul 15 07:08  login
+-rwxr-xr-x 1 root   root       59736 Sep  8 03:37  loginctl
+-rwxr-xr-x 1 root   root       39256 Sep  5  2019  logname
+-rwxr-xr-x 1 root   root       14728 Mar 30  2020  look
+-rwxr-xr-x 1 root   root        2885 Mar 30  2020  lorder
+-rwxr-xr-x 1 root   root      121712 Aug 23 22:18  lowntfs-3g
+-rwxr-xr-x 1 root   root      142144 Sep  5  2019  ls
+-rwxr-xr-x 1 root   root       14656 Feb 14  2020  lsattr
+-rwxr-xr-x 1 root   root        3638 Aug 26  2019  lsb_release
+-rwxr-xr-x 1 root   root      133352 Jul 21  2020  lsblk
+-rwxr-xr-x 1 root   root      100584 Jul 21  2020  lscpu
+-rwxr-xr-x 1 root   root      861384 Dec 17  2020  lshw
+-rwxr-xr-x 1 root   root         706 Mar 19  2021  lsinitramfs
+-rwxr-xr-x 1 root   root       96488 Jul 21  2020  lsipc
+-rwxr-xr-x 1 root   root       39480 Jul 21  2020  lslocks
+-rwxr-xr-x 1 root   root       67816 Jul 21  2020  lslogins
+-rwxr-xr-x 1 root   root       67816 Jul 21  2020  lsmem
+lrwxrwxrwx 1 root   root           4 Mar 12  2020  lsmod -> kmod
+-rwxr-xr-x 1 root   root       51440 Jul 21  2020  lsns
+-rwxr-xr-x 1 root   root      175744 Dec 26  2020  lsof
+-rwxr-xr-x 1 root   root       94160 Apr  1  2021  lspci
+-rwxr-xr-x 1 root   root        1081 Aug 28  2017  lspgpot
+-rwxr-xr-x 1 root   root      248328 Oct  2  2019  lsusb
+-rwxr-xr-x 1 root   root      308560 Feb  1  2019  ltrace
+-rwxr-xr-x 1 root   root       53680 Feb 29  2020  luit
+-rwxr-xr-x 1 root   root      190704 May 21  2021  lz4
+lrwxrwxrwx 1 root   root           3 May 21  2021  lz4c -> lz4
+lrwxrwxrwx 1 root   root           3 May 21  2021  lz4cat -> lz4
+lrwxrwxrwx 1 root   root          23 Aug 20 06:40  lzcat -> /etc/alternatives/lzcat
+lrwxrwxrwx 1 root   root          23 Aug 20 06:40  lzcmp -> /etc/alternatives/lzcmp
+lrwxrwxrwx 1 root   root          24 Aug 20 06:40  lzdiff -> /etc/alternatives/lzdiff
+lrwxrwxrwx 1 root   root          25 Aug 20 06:40  lzegrep -> /etc/alternatives/lzegrep
+lrwxrwxrwx 1 root   root          25 Aug 20 06:40  lzfgrep -> /etc/alternatives/lzfgrep
+lrwxrwxrwx 1 root   root          24 Aug 20 06:40  lzgrep -> /etc/alternatives/lzgrep
+lrwxrwxrwx 1 root   root          24 Aug 20 06:40  lzless -> /etc/alternatives/lzless
+lrwxrwxrwx 1 root   root          22 Aug 20 06:40  lzma -> /etc/alternatives/lzma
+-rwxr-xr-x 1 root   root       14568 Apr 21  2020  lzmainfo
+lrwxrwxrwx 1 root   root          24 Aug 20 06:40  lzmore -> /etc/alternatives/lzmore
+-rwxr-xr-x 1 root   root         388 Feb 17  2021  mailmail3
+-rwxr-xr-x 1 root   root      119632 Feb 26  2020  man
+-rwxr-xr-x 1 root   root       27544 Feb 26  2020  man-recode
+-rwxr-xr-x 1 root   root      142432 Feb 26  2020  mandb
+-rwxr-xr-x 1 root   root        1942 Feb 17  2020  manifest
+-rwxr-xr-x 1 root   root       39632 Feb 26  2020  manpath
+-rwxr-xr-x 1 root   root       26760 May 10  2019  mapscrn
+-rwxr-xr-x 1 root   root        2488 Nov  6 04:03  mariadb-service-convert
+-rwxr-xr-x 1 root   root      162552 Feb 17  2020  mawk
+-rwxr-xr-x 1 root   root       35120 Jul 21  2020  mcookie
+-rwxr-xr-x 1 root   root       47480 Sep  5  2019  md5sum
+lrwxrwxrwx 1 root   root           6 Sep  5  2019  md5sum.textutils -> md5sum
+-rwxr-xr-x 1 root   root       51608 Oct 27 20:00  mdig
+-rwxr-xr-x 1 root   root        5807 Apr 22  2021  mesa-overlay-control.py
+-rwxr-xr-x 1 root   root       14568 Jul 21  2020  mesg
+-rwxr-xr-x 1 root   root        3060 Jan  7  2021  migrate-pubring-from-classic-gpg
+-rwxr-xr-x 1 root   root       35098 Feb  4  2020  miniterm
+-rwxr-xr-x 1 root   root       16163 May 10  2019  mk_modmap
+-rwxr-xr-x 1 root   root       88408 Sep  5  2019  mkdir
+-rwxr-xr-x 1 root   root       67928 Sep  5  2019  mkfifo
+-rwxr-xr-x 1 root   root       72024 Sep  5  2019  mknod
+-rwxr-xr-x 1 root   root      210904 Oct 12 09:36  mksquashfs
+-rwxr-xr-x 1 root   root       47448 Sep  5  2019  mktemp
+-rwxr-xr-x 1 root   root       43160 Jul 21  2020  more
+-rwsr-xr-x 1 root   root       55528 Jul 21  2020  mount
+-rwxr-xr-x 1 root   root       14568 Jul 21  2020  mountpoint
+-rwxr-xr-x 1 root   root        1446 Nov  6 04:03  msql2mysql
+lrwxrwxrwx 1 root   root          20 Aug 20 06:42  mt -> /etc/alternatives/mt
+-rwxr-xr-x 1 root   root       88864 Aug 25 19:52  mt-gnu
+-rwxr-xr-x 1 root   root       82176 Aug 21  2019  mtr
+-rwxr-xr-x 1 root   root       39296 Aug 21  2019  mtr-packet
+-rwxr-xr-x 1 root   root      149888 Sep  5  2019  mv
+-rwxr-xr-x 1 root   root     3607392 Nov  6 04:03  my_print_defaults
+-rwxr-xr-x 1 root   root     3980832 Nov  6 04:03  myisam_ftdump
+-rwxr-xr-x 1 root   root     4112608 Nov  6 04:03  myisamchk
+-rwxr-xr-x 1 root   root     3963424 Nov  6 04:03  myisamlog
+-rwxr-xr-x 1 root   root     4010080 Nov  6 04:03  myisampack
+-rwxr-xr-x 1 root   root     4154584 Nov  6 04:03  mysql
+-rwxr-xr-x 1 root   root        4217 Nov  6 04:03  mysql_convert_table_format
+-rwxr-xr-x 1 root   root        3290 Nov  6 04:03  mysql_find_rows
+-rwxr-xr-x 1 root   root        1250 Nov  6 04:03  mysql_fix_extensions
+-rwxr-xr-x 1 root   root       19544 Nov  6 04:03  mysql_install_db
+-rwxr-xr-x 1 root   root     3615616 Nov  6 04:03  mysql_plugin
+-rwxr-xr-x 1 root   root       12527 Nov  6 04:03  mysql_secure_installation
+-rwxr-xr-x 1 root   root       17542 Nov  6 04:03  mysql_setpermission
+-rwxr-xr-x 1 root   root     3610848 Nov  6 04:03  mysql_tzinfo_to_sql
+-rwxr-xr-x 1 root   root     3698624 Nov  6 04:03  mysql_upgrade
+-rwxr-xr-x 1 root   root     3602464 Nov  6 04:03  mysql_waitpid
+-rwxr-xr-x 1 root   root      111922 Nov  6 04:03  mysqlaccess
+-rwxr-xr-x 1 root   root     3928160 Nov  6 04:03  mysqladmin
+lrwxrwxrwx 1 root   root          10 Nov  6 04:03  mysqlanalyze -> mysqlcheck
+-rwxr-xr-x 1 root   root     4188312 Nov  6 04:03  mysqlbinlog
+-rwxr-xr-x 1 root   root     3921536 Nov  6 04:03  mysqlcheck
+-rwxr-xr-x 1 root   root       24715 Nov  6 04:03  mysqld_multi
+-rwxr-xr-x 1 root   root       30450 Nov  6 04:03  mysqld_safe
+-rwxr-xr-x 1 root   root     3573056 Nov  6 04:03  mysqld_safe_helper
+-rwxr-xr-x 1 root   root     4016384 Nov  6 04:03  mysqldump
+-rwxr-xr-x 1 root   root        8242 Nov  6 04:03  mysqldumpslow
+-rwxr-xr-x 1 root   root       34963 Nov  6 04:03  mysqlhotcopy
+-rwxr-xr-x 1 root   root     3916288 Nov  6 04:03  mysqlimport
+lrwxrwxrwx 1 root   root          10 Nov  6 04:03  mysqloptimize -> mysqlcheck
+lrwxrwxrwx 1 root   root          10 Nov  6 04:03  mysqlrepair -> mysqlcheck
+-rwxr-xr-x 1 root   root       50344 Nov  6 04:01  mysqlreport
+-rwxr-xr-x 1 root   root     3910752 Nov  6 04:03  mysqlshow
+-rwxr-xr-x 1 root   root     3934048 Nov  6 04:03  mysqlslap
+-rwxr-xr-x 1 root   root       35048 Jul 21  2020  namei
+-rwxr-xr-x 1 root   root      320136 Apr 10  2020  nano
+lrwxrwxrwx 1 root   root          22 Aug 20 06:40  nawk -> /etc/alternatives/nawk
+lrwxrwxrwx 1 root   root          20 Aug 20 06:40  nc -> /etc/alternatives/nc
+-rwxr-xr-x 1 root   root       43664 Mar 10  2020  nc.openbsd
+-rwxr-xr-x 1 root   root       37832 Mar 30  2020  ncal
+-rwxr-xr-x 1 root   root         913 Mar 21  2020  neqn
+lrwxrwxrwx 1 root   root          24 Aug 20 06:40  netcat -> /etc/alternatives/netcat
+-rwxr-xr-x 1 root   root      109256 Feb 24  2019  netkit-ftp
+-rwxr-xr-x 1 root   root       76008 Sep  8 03:37  networkctl
+-rwxr-xr-x 1 root   root       18396 Jul 12 22:26  networkd-dispatcher
+-rwsr-xr-x 1 root   root       44784 Jul 15 07:08  newgrp
+-rwxr-xr-x 1 root   root       43240 Mar 23  2020  ngettext
+-rwxr-xr-x 1 root   root       43352 Sep  5  2019  nice
+lrwxrwxrwx 1 root   root           8 Nov  7  2019  nisdomainname -> hostname
+-rwxr-xr-x 1 root   root       43448 Sep  5  2019  nl
+-rwxr-xr-x 1 root   root       43352 Sep  5  2019  nohup
+-rwxr-xr-x 1 root   root       43352 Sep  5  2019  nproc
+-rwxr-xr-x 1 root   root        3293 Mar 21  2020  nroff
+-rwxr-xr-x 1 root   root       35256 Jul 21  2020  nsenter
+-rwxr-xr-x 1 root   root      109360 Oct 27 20:00  nslookup
+-rwxr-xr-x 1 root   root       80112 Feb 14  2020  nstat
+-rwxr-xr-x 1 root   root       72216 Oct 27 20:00  nsupdate
+-rwxr-xr-x 1 root   root      158608 Aug 23 22:18  ntfs-3g
+-rwxr-xr-x 1 root   root       14568 Aug 23 22:18  ntfs-3g.probe
+-rwxr-xr-x 1 root   root       35080 Aug 23 22:18  ntfscat
+-rwxr-xr-x 1 root   root       39176 Aug 23 22:18  ntfscluster
+-rwxr-xr-x 1 root   root       39176 Aug 23 22:18  ntfscmp
+-rwxr-xr-x 1 root   root       51480 Aug 23 22:18  ntfsdecrypt
+-rwxr-xr-x 1 root   root       39184 Aug 23 22:18  ntfsfallocate
+-rwxr-xr-x 1 root   root       47376 Aug 23 22:18  ntfsfix
+-rwxr-xr-x 1 root   root       59672 Aug 23 22:18  ntfsinfo
+-rwxr-xr-x 1 root   root       36184 Aug 23 22:18  ntfsls
+-rwxr-xr-x 1 root   root       39176 Aug 23 22:18  ntfsmove
+-rwxr-xr-x 1 root   root      121096 Aug 23 22:18  ntfsrecover
+-rwxr-xr-x 1 root   root       97024 Aug 23 22:18  ntfssecaudit
+-rwxr-xr-x 1 root   root       43200 Aug 23 22:18  ntfstruncate
+-rwxr-xr-x 1 root   root       39096 Aug 23 22:18  ntfsusermap
+-rwxr-xr-x 1 root   root       56104 Aug 23 22:18  ntfswipe
+-rwxr-xr-x 1 root   root       67992 Sep  5  2019  numfmt
+-rwxr-xr-x 1 root   root       72056 Sep  5  2019  od
+-rwxr-xr-x 1 root   root        8573 Oct 18 20:48  oem-getlogs
+lrwxrwxrwx 1 root   root          17 Jul 21  2019  on_ac_power -> /sbin/on_ac_power
+-rwxr-xr-x 1 root   root      753336 Nov 24 22:20  openssl
+-rwxr-xr-x 1 root   root       22968 May 10  2019  openvt
+-rwxr-xr-x 1 root   root        2039 Nov 20 13:40  pa-info
+-rwxr-xr-x 1 root   root       51624 Nov 20 13:40  pacat
+-rwxr-xr-x 1 root   root       18824 Nov 20 13:40  pacmd
+-rwxr-xr-x 1 root   root       67992 Nov 20 13:40  pactl
+-rwxr-xr-x 1 root   root        2259 Nov 20 13:40  padsp
+lrwxrwxrwx 1 root   root          23 Aug 20 06:40  pager -> /etc/alternatives/pager
+lrwxrwxrwx 1 root   root           5 Nov 20 13:40  pamon -> pacat
+lrwxrwxrwx 1 root   root           5 Nov 20 13:40  paplay -> pacat
+lrwxrwxrwx 1 root   root           5 Nov 20 13:40  parec -> pacat
+lrwxrwxrwx 1 root   root           5 Nov 20 13:40  parecord -> pacat
+-rwxr-xr-x 1 root   root      121072 Jul 21  2020  partx
+-rwsr-xr-x 1 root   root       68208 Jul 15 07:08  passwd
+-rwxr-xr-x 1 root   root       43384 Sep  5  2019  paste
+-rwxr-xr-x 1 root   root       16515 Aug  3  2019  pastebinit
+-rwxr-xr-x 1 root   root       22928 Nov 20 13:40  pasuspender
+-rwxr-xr-x 1 root   root      195096 Jul 27  2019  patch
+-rwxr-xr-x 1 root   root       39256 Sep  5  2019  pathchk
+-rwxr-xr-x 1 root   root       14648 Nov 20 13:40  pax11publish
+lrwxrwxrwx 1 root   root           5 Aug  3  2019  pbget -> pbput
+-rwxr-xr-x 1 root   root        2569 Aug  3  2019  pbput
+lrwxrwxrwx 1 root   root           5 Aug  3  2019  pbputs -> pbput
+lrwxrwxrwx 1 root   root           6 Mar 13  2020  pdb3 -> pdb3.8
+lrwxrwxrwx 1 root   root          23 Sep 29 01:10  pdb3.8 -> ../lib/python3.8/pdb.py
+-rwxr-xr-x 1 root   root       14488 Nov 12  2019  peekfd
+-rwxr-xr-x 2 root   root     3478464 Oct 19  2020  perl
+-rwxr-xr-x 1 root   root       14648 Oct 19  2020  perl5.30-x86_64-linux-gnu
+-rwxr-xr-x 2 root   root     3478464 Oct 19  2020  perl5.30.0
+-rwxr-xr-x 2 root   root       46366 Oct 19  2020  perlbug
+-rwxr-xr-x 1 root   root         125 Oct 28  2019  perldoc
+-rwxr-xr-x 1 root   root       10864 Oct 19  2020  perlivp
+-rwxr-xr-x 2 root   root       46366 Oct 19  2020  perlthanks
+-rwxr-xr-x 1 root   root     3799456 Nov  6 04:03  perror
+lrwxrwxrwx 1 root   root          22 Aug 20 06:42  pftp -> /etc/alternatives/pftp
+-rwxr-xr-x 1 root   root       30968 Sep  9 21:59  pgrep
+-rwxr-xr-x 1 root   root      221536 Mar 21  2020  pic
+lrwxrwxrwx 1 root   root          22 Aug 20 06:42  pico -> /etc/alternatives/pico
+-rwxr-xr-x 1 root   root        8357 Oct 19  2020  piconv
+lrwxrwxrwx 1 root   root          14 Feb 14  2020  pidof -> /sbin/killall5
+lrwxrwxrwx 1 root   root          26 Aug 20 06:42  pinentry -> /etc/alternatives/pinentry
+-rwxr-xr-x 1 root   root       68240 Mar 23  2020  pinentry-curses
+-rwxr-xr-x 1 root   root       72776 Jan 31  2020  ping
+lrwxrwxrwx 1 root   root           4 Jan 31  2020  ping4 -> ping
+lrwxrwxrwx 1 root   root           4 Jan 31  2020  ping6 -> ping
+-rwxr-xr-x 1 root   root       43384 Sep  5  2019  pinky
+-rwxr-xr-x 1 root   root       18744 May 26  2021  pkaction
+-rwxr-xr-x 1 root   root       22912 May 26  2021  pkcheck
+-rwxr-xr-x 1 root   root       76088 Sep 23  2020  pkcon
+-rwsr-xr-x 1 root   root       31032 May 26  2021  pkexec
+lrwxrwxrwx 1 root   root           5 Sep  9 21:59  pkill -> pgrep
+-rwxr-xr-x 1 root   root       22840 Sep 23  2020  pkmon
+-rwxr-xr-x 1 root   root       18744 May 26  2021  pkttyagent
+-rwxr-xr-x 1 root   root        4533 Oct 19  2020  pl2pm
+-rwxr-xr-x 1 root   root       22904 Dec 16  2020  pldd
+-rwxr-xr-x 1 root   root       51352 Nov  2  2020  plymouth
+-rwxr-xr-x 1 root   root       35064 Sep  9 21:59  pmap
+-rwxr-xr-x 1 root   root        4134 Oct 19  2020  pod2html
+-rwxr-xr-x 1 root   root       15034 Oct 19  2020  pod2man
+-rwxr-xr-x 1 root   root       10803 Oct 19  2020  pod2text
+-rwxr-xr-x 1 root   root        3948 Oct 19  2020  pod2usage
+-rwxr-xr-x 1 root   root        3658 Oct 19  2020  podchecker
+-rwxr-xr-x 1 root   root        2527 Oct 19  2020  podselect
+-rwxr-xr-x 1 root   root        8744 May 30  2018  pollinate
+-rwxr-xr-x 1 root   root       76216 Sep  5  2019  pr
+-rwxr-xr-x 1 root   root       68104 Mar 21  2020  preconv
+lrwxrwxrwx 1 root   root          11 Oct 19  2019  print -> run-mailcap
+-rwxr-xr-x 1 root   root       39256 Sep  5  2019  printenv
+-rwxr-xr-x 1 root   root       22680 Mar 30  2020  printerbanner
+-rwxr-xr-x 1 root   root       59736 Sep  5  2019  printf
+-rwxr-xr-x 1 root   root       39672 Jul 21  2020  prlimit
+-rwxr-xr-x 1 root   root       80640 Oct 27  2019  procan
+-rwxr-xr-x 1 root   root       13655 Oct 19  2020  prove
+-rwxr-xr-x 1 root   root       22760 Nov 12  2019  prtstat
+-rwxr-xr-x 1 root   root      137688 Sep  9 21:59  ps
+lrwxrwxrwx 1 root   root           9 May 10  2019  psfaddtable -> psfxtable
+lrwxrwxrwx 1 root   root           9 May 10  2019  psfgettable -> psfxtable
+lrwxrwxrwx 1 root   root           9 May 10  2019  psfstriptable -> psfxtable
+-rwxr-xr-x 1 root   root       22520 May 10  2019  psfxtable
+-rwxr-xr-x 1 root   root       14488 Nov 12  2019  pslog
+-rwxr-xr-x 1 root   root       36008 Nov 12  2019  pstree
+lrwxrwxrwx 1 root   root           6 Nov 12  2019  pstree.x11 -> pstree
+-rwxr-xr-x 1 root   root        3549 Oct 19  2020  ptar
+-rwxr-xr-x 1 root   root        2628 Oct 19  2020  ptardiff
+-rwxr-xr-x 1 root   root        4392 Oct 19  2020  ptargrep
+-rwxr-xr-x 1 root   root       80280 Sep  5  2019  ptx
+-rwxr-xr-x 1 root   root        1149 Feb 17  2020  purge-old-kernels
+-rwxr-xr-x 1 root   root       43352 Sep  5  2019  pwd
+-rwxr-xr-x 1 root   root       14568 Sep  9 21:59  pwdx
+-rwxr-xr-x 1 root   root        7813 Mar 13  2020  py3clean
+-rwxr-xr-x 1 root   root       12120 Mar 13  2020  py3compile
+lrwxrwxrwx 1 root   root          31 Mar 13  2020  py3versions -> ../share/python3/py3versions.py
+lrwxrwxrwx 1 root   root           8 Mar 13  2020  pydoc3 -> pydoc3.8
+-rwxr-xr-x 1 root   root          79 Sep 29 01:10  pydoc3.8
+lrwxrwxrwx 1 root   root          12 Mar 13  2020  pygettext3 -> pygettext3.8
+-rwxr-xr-x 1 root   root       21535 Sep 29 01:10  pygettext3.8
+-rwxr-xr-x 1 root   root         392 Feb 17  2021  pyhtmlizer3
+-rwxr-xr-x 1 root   root         372 Apr  6  2020  pyjwt3
+lrwxrwxrwx 1 root   root           9 Mar 13  2020  python3 -> python3.8
+-rwxr-xr-x 1 root   root     5490488 Sep 29 01:10  python3.8
+lrwxrwxrwx 1 root   root           4 Jun 19  2020  rbash -> bash
+lrwxrwxrwx 1 root   root          21 Aug 20 06:42  rcp -> /etc/alternatives/rcp
+-rwxr-xr-x 1 root   root      133360 Feb 14  2020  rdma
+-rwxr-xr-x 1 root   root       51544 Sep  5  2019  readlink
+-rwxr-xr-x 1 root   root       51576 Sep  5  2019  realpath
+-rwxr-xr-x 1 root   root          89 Feb 22  2020  red
+-rwxr-xr-x 1 root   root       22760 Jul 21  2020  rename.ul
+-rwxr-xr-x 1 root   root       14568 Jul 21  2020  renice
+-rwxr-xr-x 1 root   root     3585312 Nov  6 04:03  replace
+-rwxr-xr-x 1 root   root       39064 Feb 25  2020  rescan-scsi-bus.sh
+lrwxrwxrwx 1 root   root           4 Feb 26  2020  reset -> tset
+-rwxr-xr-x 1 root   root       22664 May 10  2019  resizecons
+-rwxr-xr-x 1 root   root       63720 Jul 21  2020  resizepart
+-rwxr-xr-x 1 root   root     3606528 Nov  6 04:03  resolve_stack_dump
+-rwxr-xr-x 1 root   root      129408 Sep  8 03:37  resolvectl
+-rwxr-xr-x 1 root   root     3602432 Nov  6 04:03  resolveip
+-rwxr-xr-x 1 root   root       14568 Jul 21  2020  rev
+-rwxr-xr-x 1 root   root          30 Jan 17  2020  rgrep
+lrwxrwxrwx 1 root   root          24 Aug 20 06:42  rlogin -> /etc/alternatives/rlogin
+-rwxr-xr-x 1 root   root       72056 Sep  5  2019  rm
+-rwxr-xr-x 1 root   root       47448 Sep  5  2019  rmdir
+lrwxrwxrwx 1 root   root           4 Apr 10  2020  rnano -> nano
+-rwxr-xr-x 1 root   root         208 Feb 14  2020  routef
+-rwxr-xr-x 1 root   root        1656 Feb 14  2020  routel
+lrwxrwxrwx 1 root   root          29 Oct 29 01:36  rrsync -> ../share/rsync/scripts/rrsync
+lrwxrwxrwx 1 root   root          21 Aug 20 06:42  rsh -> /etc/alternatives/rsh
+-rwxr-xr-x 1 root   root      504472 Oct 29 01:36  rsync
+lrwxrwxrwx 1 root   root           6 Feb 14  2020  rtstat -> lnstat
+-rwxr-xr-x 1 root   root       18487 Oct 19  2019  run-mailcap
+-rwxr-xr-x 1 root   root        3592 Jan 16  2014  run-one
+lrwxrwxrwx 1 root   root           7 Jan 16  2014  run-one-constantly -> run-one
+lrwxrwxrwx 1 root   root           7 Jan 16  2014  run-one-until-failure -> run-one
+lrwxrwxrwx 1 root   root           7 Jan 16  2014  run-one-until-success -> run-one
+-rwxr-xr-x 1 root   root       27144 Dec  7  2019  run-parts
+lrwxrwxrwx 1 root   root           7 Jan 16  2014  run-this-one -> run-one
+-rwxr-xr-x 1 root   root       39256 Sep  5  2019  runcon
+lrwxrwxrwx 1 root   root          23 Aug 20 06:40  rview -> /etc/alternatives/rview
+lrwxrwxrwx 1 root   root          22 Aug 20 06:42  rvim -> /etc/alternatives/rvim
+-rwxr-xr-x 1 root   root       10481 Dec  7  2019  savelog
+-rwxr-xr-x 1 root   root       55632 May  4  2019  sbattach
+-rwxr-xr-x 1 root   root       68144 May  4  2019  sbkeysync
+-rwxr-xr-x 1 root   root       55696 May  4  2019  sbsiglist
+-rwxr-xr-x 1 root   root       59792 May  4  2019  sbsign
+-rwxr-xr-x 1 root   root       63952 May  4  2019  sbvarsign
+-rwxr-xr-x 1 root   root       63824 May  4  2019  sbverify
+-rwxr-xr-x 1 root   root      117040 Jul 23 21:55  scp
+-rwxr-xr-x 1 root   root      474280 Feb 24  2021  screen
+-rwxr-xr-x 1 root   root       14328 May 10  2019  screendump
+-rwxr-xr-x 1 root   root       55528 Jul 21  2020  script
+-rwxr-xr-x 1 root   root       30952 Jul 21  2020  scriptreplay
+-rwxr-xr-x 1 root   root        8585 Feb 25  2020  scsi_logging_level
+-rwxr-xr-x 1 root   root        3602 Feb 25  2020  scsi_mandat
+-rwxr-xr-x 1 root   root        1327 Feb 25  2020  scsi_readcap
+-rwxr-xr-x 1 root   root        1121 Feb 25  2020  scsi_ready
+-rwxr-xr-x 1 root   root        3857 Feb 25  2020  scsi_satl
+-rwxr-xr-x 1 root   root        1285 Feb 25  2020  scsi_start
+-rwxr-xr-x 1 root   root        1474 Feb 25  2020  scsi_stop
+-rwxr-xr-x 1 root   root         936 Feb 25  2020  scsi_temperature
+-rwxr-xr-x 1 root   root       51296 Apr  8  2019  sdiff
+-rwxr-xr-x 1 root   root      121288 Dec 22  2018  sed
+lrwxrwxrwx 1 root   root          11 Oct 19  2019  see -> run-mailcap
+-rwxr-xr-x 1 root   root        2442 Nov 17  2019  select-editor
+-rwxr-xr-x 1 root   root        1230 Nov 17  2019  sensible-browser
+-rwxr-xr-x 1 root   root        1169 Nov 17  2019  sensible-editor
+-rwxr-xr-x 1 root   root         452 Nov 17  2019  sensible-pager
+-rwxr-xr-x 1 root   root       51544 Sep  5  2019  seq
+-rwxr-xr-x 1 root   root       27136 Jul 21  2020  setarch
+-rwxr-xr-x 1 root   root       47240 May 10  2019  setfont
+-rwxr-xr-x 1 root   root       14408 May 10  2019  setkeycodes
+-rwxr-xr-x 1 root   root       14392 May 10  2019  setleds
+-rwxr-xr-x 1 root   root       14408 May 10  2019  setlogcons
+-rwxr-xr-x 1 root   root       14440 May 10  2019  setmetamode
+-rwxr-xr-x 1 root   root       30960 Apr  1  2021  setpci
+-rwxr-xr-x 1 root   root       47344 Jul 21  2020  setpriv
+-rwxr-xr-x 1 root   root       14568 Jul 21  2020  setsid
+-rwxr-xr-x 1 root   root       47336 Jul 21  2020  setterm
+-rwxr-xr-x 1 root   root       39233 Mar 27  2020  setupcon
+-rwxr-xr-x 1 root   root      170504 Jul 23 21:55  sftp
+lrwxrwxrwx 1 root   root           6 Jul 15 07:08  sg -> newgrp
+-rwxr-xr-x 1 root   root       14696 Feb 25  2020  sg_bg_ctl
+-rwxr-xr-x 1 root   root       23304 Feb 25  2020  sg_compare_and_write
+-rwxr-xr-x 1 root   root       23704 Feb 25  2020  sg_copy_results
+-rwxr-xr-x 1 root   root       51376 Feb 25  2020  sg_dd
+-rwxr-xr-x 1 root   root       23144 Feb 25  2020  sg_decode_sense
+-rwxr-xr-x 1 root   root       14488 Feb 25  2020  sg_emc_trespass
+-rwxr-xr-x 1 root   root       35976 Feb 25  2020  sg_format
+-rwxr-xr-x 1 root   root       36088 Feb 25  2020  sg_get_config
+-rwxr-xr-x 1 root   root       19176 Feb 25  2020  sg_get_lba_status
+-rwxr-xr-x 1 root   root       14792 Feb 25  2020  sg_ident
+-rwxr-xr-x 1 root   root      126456 Feb 25  2020  sg_inq
+-rwxr-xr-x 1 root   root      154488 Feb 25  2020  sg_logs
+-rwxr-xr-x 1 root   root       23176 Feb 25  2020  sg_luns
+-rwxr-xr-x 1 root   root       18584 Feb 25  2020  sg_map
+-rwxr-xr-x 1 root   root       27192 Feb 25  2020  sg_map26
+-rwxr-xr-x 1 root   root       46712 Feb 25  2020  sg_modes
+-rwxr-xr-x 1 root   root       35688 Feb 25  2020  sg_opcodes
+-rwxr-xr-x 1 root   root       36792 Feb 25  2020  sg_persist
+-rwxr-xr-x 1 root   root       14696 Feb 25  2020  sg_prevent
+-rwxr-xr-x 1 root   root       31400 Feb 25  2020  sg_raw
+-rwxr-xr-x 1 root   root       23112 Feb 25  2020  sg_rbuf
+-rwxr-xr-x 1 root   root       18600 Feb 25  2020  sg_rdac
+-rwxr-xr-x 1 root   root       26784 Feb 25  2020  sg_read
+-rwxr-xr-x 1 root   root       37352 Feb 25  2020  sg_read_attr
+-rwxr-xr-x 1 root   root       14728 Feb 25  2020  sg_read_block_limits
+-rwxr-xr-x 1 root   root       27464 Feb 25  2020  sg_read_buffer
+-rwxr-xr-x 1 root   root       14888 Feb 25  2020  sg_read_long
+-rwxr-xr-x 1 root   root       23176 Feb 25  2020  sg_readcap
+-rwxr-xr-x 1 root   root       14856 Feb 25  2020  sg_reassign
+-rwxr-xr-x 1 root   root       14856 Feb 25  2020  sg_referrals
+-rwxr-xr-x 1 root   root       27224 Feb 25  2020  sg_rep_zones
+-rwxr-xr-x 1 root   root       14920 Feb 25  2020  sg_requests
+-rwxr-xr-x 1 root   root       14856 Feb 25  2020  sg_reset
+-rwxr-xr-x 1 root   root       14792 Feb 25  2020  sg_reset_wp
+-rwxr-xr-x 1 root   root       14696 Feb 25  2020  sg_rmsn
+-rwxr-xr-x 1 root   root       14792 Feb 25  2020  sg_rtpg
+-rwxr-xr-x 1 root   root       23080 Feb 25  2020  sg_safte
+-rwxr-xr-x 1 root   root       27496 Feb 25  2020  sg_sanitize
+-rwxr-xr-x 1 root   root       23112 Feb 25  2020  sg_sat_identify
+-rwxr-xr-x 1 root   root       19304 Feb 25  2020  sg_sat_phy_event
+-rwxr-xr-x 1 root   root       19016 Feb 25  2020  sg_sat_read_gplog
+-rwxr-xr-x 1 root   root       18984 Feb 25  2020  sg_sat_set_features
+-rwxr-xr-x 1 root   root       18592 Feb 25  2020  sg_scan
+-rwxr-xr-x 1 root   root       19176 Feb 25  2020  sg_seek
+-rwxr-xr-x 1 root   root       27688 Feb 25  2020  sg_senddiag
+-rwxr-xr-x 1 root   root      122648 Feb 25  2020  sg_ses
+-rwxr-xr-x 1 root   root       31976 Feb 25  2020  sg_ses_microcode
+-rwxr-xr-x 1 root   root       19144 Feb 25  2020  sg_start
+-rwxr-xr-x 1 root   root       23112 Feb 25  2020  sg_stpg
+-rwxr-xr-x 1 root   root       23080 Feb 25  2020  sg_stream_ctl
+-rwxr-xr-x 1 root   root       14856 Feb 25  2020  sg_sync
+-rwxr-xr-x 1 root   root       14792 Feb 25  2020  sg_test_rwbuf
+-rwxr-xr-x 1 root   root       19128 Feb 25  2020  sg_timestamp
+-rwxr-xr-x 1 root   root       14856 Feb 25  2020  sg_turs
+-rwxr-xr-x 1 root   root       23144 Feb 25  2020  sg_unmap
+-rwxr-xr-x 1 root   root       19176 Feb 25  2020  sg_verify
+-rwxr-xr-x 1 root   root      116920 Feb 25  2020  sg_vpd
+-rwxr-xr-x 1 root   root       23112 Feb 25  2020  sg_wr_mode
+-rwxr-xr-x 1 root   root       27752 Feb 25  2020  sg_write_buffer
+-rwxr-xr-x 1 root   root       14952 Feb 25  2020  sg_write_long
+-rwxr-xr-x 1 root   root       27400 Feb 25  2020  sg_write_same
+-rwxr-xr-x 1 root   root       23176 Feb 25  2020  sg_write_verify
+-rwxr-xr-x 1 root   root       56776 Feb 25  2020  sg_write_x
+-rwxr-xr-x 1 root   root       43176 Feb 25  2020  sg_xcopy
+-rwxr-xr-x 1 root   root       15000 Feb 25  2020  sg_zone
+-rwxr-xr-x 1 root   root       73576 Feb 25  2020  sginfo
+-rwxr-xr-x 1 root   root       34976 Feb 25  2020  sgm_dd
+-rwxr-xr-x 1 root   root       43176 Feb 25  2020  sgp_dd
+lrwxrwxrwx 1 root   root           4 Aug 20 06:40  sh -> dash
+-rwxr-xr-x 1 root   root       51576 Sep  5  2019  sha1sum
+-rwxr-xr-x 1 root   root       59768 Sep  5  2019  sha224sum
+-rwxr-xr-x 1 root   root       59768 Sep  5  2019  sha256sum
+-rwxr-xr-x 1 root   root       67960 Sep  5  2019  sha384sum
+-rwxr-xr-x 1 root   root       67960 Sep  5  2019  sha512sum
+-rwxr-xr-x 1 root   root        9976 Oct 19  2020  shasum
+-rwxr-xr-x 1 root   root       18504 May 10  2019  showconsolefont
+-rwxr-xr-x 1 root   root       18504 May 10  2019  showkey
+-rwxr-xr-x 1 root   root       63864 Sep  5  2019  shred
+-rwxr-xr-x 1 root   root       59736 Sep  5  2019  shuf
+-rwxr-xr-x 1 root   root       30952 Sep  9 21:59  skill
+-rwxr-xr-x 1 root   root       22768 Sep  9 21:59  slabtop
+-rwxr-xr-x 1 root   root       39256 Sep  5  2019  sleep
+lrwxrwxrwx 1 root   root           3 Jul 23 21:55  slogin -> ssh
+-rwxr-xr-x 1 root   root    22443760 Sep  9 23:34  snap
+lrwxrwxrwx 1 root   root          20 Sep  9 23:34  snapctl -> ../lib/snapd/snapctl
+-rwxr-xr-x 1 root   root       43304 Sep  9 23:34  snapfuse
+lrwxrwxrwx 1 root   root           5 Sep  9 21:59  snice -> skill
+-rwxr-xr-x 1 root   root      384552 Oct 27  2019  socat
+-rwxr-xr-x 1 root   root       47624 Mar 21  2020  soelim
+-rwxr-xr-x 1 root   root      117376 Sep  5  2019  sort
+-rwxr-xr-x 1 root   root         596 Jun  9  2021  sos
+-rwxr-xr-x 1 root   root        1065 Jun  9  2021  sos-collector
+-rwxr-xr-x 1 root   root        1057 Jun  9  2021  sosreport
+-rwxr-xr-x 1 root   root       19150 Oct 19  2020  splain
+-rwxr-xr-x 1 root   root       60184 Sep  5  2019  split
+-rwxr-xr-x 1 root   root       14328 May 10  2019  splitfont
+-rwxr-xr-x 1 root   root      168800 Feb 14  2020  ss
+-rwxr-xr-x 1 root   root      789448 Jul 23 21:55  ssh
+-rwxr-xr-x 1 root   root      370976 Jul 23 21:55  ssh-add
+-rwxr-sr-x 1 root   ssh       350504 Jul 23 21:55  ssh-agent
+-rwxr-xr-x 1 root   root        1455 Jul 23 21:55  ssh-argv0
+-rwxr-xr-x 1 root   root       10658 Feb 14  2020  ssh-copy-id
+-rwxr-xr-x 1 root   root         409 Feb 29  2020  ssh-import-id
+-rwxr-xr-x 1 root   root         785 Feb 29  2020  ssh-import-id-gh
+-rwxr-xr-x 1 root   root         785 Feb 29  2020  ssh-import-id-lp
+-rwxr-xr-x 1 root   root      477488 Jul 23 21:55  ssh-keygen
+-rwxr-xr-x 1 root   root      465208 Jul 23 21:55  ssh-keyscan
+-rwxr-xr-x 1 root   root       88440 Sep  5  2019  stat
+lrwxrwxrwx 1 root   root           7 Nov 25 04:02  static-sh -> busybox
+-rwxr-xr-x 1 root   root       51544 Sep  5  2019  stdbuf
+-rwxr-xr-x 1 root   root     1583592 Apr 17  2020  strace
+-rwxr-xr-x 1 root   root        1821 Mar 19  2019  strace-log-merge
+-rwxr-xr-x 1 root   root       84344 Sep  5  2019  stty
+-rwsr-xr-x 1 root   root       67816 Jul 21  2020  su
+-rwsr-xr-x 1 root   root      166056 Jan 19  2021  sudo
+lrwxrwxrwx 1 root   root           4 Jan 19  2021  sudoedit -> sudo
+-rwxr-xr-x 1 root   root       64512 Jan 19  2021  sudoreplay
+-rwxr-xr-x 1 root   root       47456 Sep  5  2019  sum
+-rwxr-xr-x 1 root   root      125984 Jan  7  2021  symcryptrun
+-rwxr-xr-x 1 root   root       39256 Sep  5  2019  sync
+-rwxr-xr-x 1 root   root      996584 Sep  8 03:37  systemctl
+lrwxrwxrwx 1 root   root          20 Sep  8 03:37  systemd -> /lib/systemd/systemd
+-rwxr-xr-x 1 root   root     1587584 Sep  8 03:37  systemd-analyze
+-rwxr-xr-x 1 root   root       14680 Sep  8 03:37  systemd-ask-password
+-rwxr-xr-x 1 root   root       18664 Sep  8 03:37  systemd-cat
+-rwxr-xr-x 1 root   root       22864 Sep  8 03:37  systemd-cgls
+-rwxr-xr-x 1 root   root       39160 Sep  8 03:37  systemd-cgtop
+-rwxr-xr-x 1 root   root       26848 Sep  8 03:37  systemd-delta
+-rwxr-xr-x 1 root   root       18656 Sep  8 03:37  systemd-detect-virt
+-rwxr-xr-x 1 root   root       22752 Sep  8 03:37  systemd-escape
+-rwxr-xr-x 1 root   root      109072 Sep  8 03:37  systemd-hwdb
+-rwxr-xr-x 1 root   root       22752 Sep  8 03:37  systemd-id128
+-rwxr-xr-x 1 root   root       22776 Sep  8 03:37  systemd-inhibit
+-rwxr-xr-x 1 root   root       26952 Sep  8 03:37  systemd-machine-id-setup
+-rwxr-xr-x 1 root   root       51664 Sep  8 03:37  systemd-mount
+-rwxr-xr-x 1 root   root       18664 Sep  8 03:37  systemd-notify
+-rwxr-xr-x 1 root   root       18656 Sep  8 03:37  systemd-path
+lrwxrwxrwx 1 root   root          10 Sep  8 03:37  systemd-resolve -> resolvectl
+-rwxr-xr-x 1 root   root       59824 Sep  8 03:37  systemd-run
+-rwxr-xr-x 1 root   root       26848 Sep  8 03:37  systemd-socket-activate
+-rwxr-xr-x 1 root   root       22760 Sep  8 03:37  systemd-stdio-bridge
+-rwxr-xr-x 1 root   root       55824 Sep  8 03:37  systemd-sysusers
+-rwxr-xr-x 1 root   root       88480 Sep  8 03:37  systemd-tmpfiles
+-rwxr-xr-x 1 root   root       30944 Sep  8 03:37  systemd-tty-ask-password-agent
+lrwxrwxrwx 1 root   root          13 Sep  8 03:37  systemd-umount -> systemd-mount
+-rwxr-xr-x 1 root   root       18744 Feb 26  2020  tabs
+-rwxr-xr-x 1 root   root       43352 Sep  5  2019  tac
+-rwxr-xr-x 1 root   root       72088 Sep  5  2019  tail
+-rwxr-xr-x 1 root   root      448112 Dec 16  2020  tar
+-rwxr-xr-x 1 root   root       35048 Jul 21  2020  taskset
+-rwxr-xr-x 1 root   root      141832 Mar 21  2020  tbl
+-rwxr-xr-x 1 root   root       43384 Sep  5  2019  tee
+lrwxrwxrwx 1 root   root          24 Aug 20 06:42  telnet -> /etc/alternatives/telnet
+-rwxr-xr-x 1 root   root      115376 Mar 23  2020  telnet.netkit
+-rwxr-xr-x 1 root   root       14360 Dec  7  2019  tempfile
+-rwxr-xr-x 1 root   root       55640 Sep  5  2019  test
+-rwxr-xr-x 1 root   root       92584 Feb 26  2020  tic
+-rwxr-xr-x 1 root   root       14720 Apr 22  2017  time
+-rwxr-xr-x 1 root   root       47328 Sep  8 03:37  timedatectl
+-rwxr-xr-x 1 root   root       43800 Sep  5  2019  timeout
+-rwxr-xr-x 1 root   root         386 Feb 17  2021  tkconch3
+-rwxr-xr-x 1 root   root       22776 Sep  9 21:59  tload
+-rwxr-xr-x 1 root   root      692192 Apr 23  2021  tmux
+-rwxr-xr-x 1 root   root       22840 Feb 26  2020  toe
+-rwxr-xr-x 1 root   root      129072 Sep  9 21:59  top
+-rwxr-xr-x 1 root   root      100728 Sep  5  2019  touch
+-rwxr-xr-x 1 root   root       26968 Feb 26  2020  tput
+-rwxr-xr-x 1 root   root       51544 Sep  5  2019  tr
+-rwxr-xr-x 1 root   root       18584 Jan 31  2020  tracepath
+lrwxrwxrwx 1 root   root          29 Aug 20 06:42  traceroute6 -> /etc/alternatives/traceroute6
+-rwxr-xr-x 1 root   root       26776 Jan 31  2020  traceroute6.iputils
+-rwxr-xr-x 1 root   root         382 Feb 17  2021  trial3
+-rwxr-xr-x 1 root   root      753568 Mar 21  2020  troff
+-rwxr-xr-x 1 root   root       39256 Sep  5  2019  true
+-rwxr-xr-x 1 root   root       43352 Sep  5  2019  truncate
+-rwxr-xr-x 1 root   root       31040 Feb 26  2020  tset
+-rwxr-xr-x 1 root   root       43352 Sep  5  2019  tsort
+-rwxr-xr-x 1 root   root       39256 Sep  5  2019  tty
+-rwxr-xr-x 1 root   root         382 Feb 17  2021  twist3
+-rwxr-xr-x 1 root   root         384 Feb 17  2021  twistd3
+-rwxr-xr-x 1 root   root       15378 Dec 16  2020  tzselect
+lrwxrwxrwx 1 root   root          16 Nov 24 04:19  ua -> ubuntu-advantage
+-rwxr-xr-x 1 root   root         442 Nov 24 04:19  ubuntu-advantage
+lrwxrwxrwx 1 root   root          10 Oct 18 20:48  ubuntu-bug -> apport-bug
+lrwxrwxrwx 1 root   root          25 Sep  9 23:34  ubuntu-core-launcher -> ../lib/snapd/snap-confine
+-rwxr-xr-x 1 root   root       23440 Feb 14  2020  ubuntu-distro-info
+-rwxr-xr-x 1 root   root       23594 Sep  4 07:17  ubuntu-security-status
+-rwxr-xr-x 1 root   root       40685 Dec 14  2018  ucf
+-rwxr-xr-x 1 root   root       19367 Dec 14  2018  ucfq
+-rwxr-xr-x 1 root   root       10722 Dec 14  2018  ucfr
+-rwxr-xr-x 1 root   root      941264 Sep  8 03:37  udevadm
+-rwxr-xr-x 1 root   root       59776 Sep  6 12:01  udisksctl
+-rwxr-xr-x 1 root   root       18600 Mar 30  2020  ul
+-rwxr-xr-x 1 root   root       18584 Mar  7  2020  ulockmgr_server
+-rwsr-xr-x 1 root   root       39144 Jul 21  2020  umount
+-rwxr-xr-x 1 root   root       39288 Sep  5  2019  uname
+-rwxr-xr-x 1 root   root       99313 Jul 22  2020  unattended-upgrade
+lrwxrwxrwx 1 root   root          18 Jul 22  2020  unattended-upgrades -> unattended-upgrade
+-rwxr-xr-x 2 root   root        2346 Dec 14  2019  uncompress
+-rwxr-xr-x 1 root   root       43384 Sep  5  2019  unexpand
+-rwxr-xr-x 1 root   root        2762 May 10  2019  unicode_start
+-rwxr-xr-x 1 root   root         530 May 10  2019  unicode_stop
+-rwxr-xr-x 1 root   root       51576 Sep  5  2019  uniq
+-rwxr-xr-x 1 root   root       39256 Sep  5  2019  unlink
+lrwxrwxrwx 1 root   root           3 May 21  2021  unlz4 -> lz4
+lrwxrwxrwx 1 root   root          24 Aug 20 06:40  unlzma -> /etc/alternatives/unlzma
+-rwxr-xr-x 1 root   root        3676 Jun 18 22:16  unmkinitramfs
+-rwxr-xr-x 1 root   root       43448 Jul 21  2020  unshare
+-rwxr-xr-x 1 root   root      114808 Oct 12 09:36  unsquashfs
+lrwxrwxrwx 1 root   root           2 Apr 21  2020  unxz -> xz
+-rwxr-xr-x 1 root   root       55712 Mar 23  2020  update-alternatives
+-rwxr-xr-x 1 root   root       59768 Mar 25  2020  update-mime-database
+-rwxr-xr-x 1 root   root       14568 Sep  9 21:59  uptime
+-rwxr-xr-x 1 root   root        4100 Oct  2  2019  usb-devices
+-rwxr-xr-x 1 root   root       31112 Oct  2  2019  usbhid-dump
+-rwxr-xr-x 1 root   root       14640 Oct  2  2019  usbreset
+-rwxr-xr-x 1 root   root       39256 Sep  5  2019  users
+-rwxr-xr-x 1 root   root       30952 Jul 21  2020  utmpdump
+-rwxr-xr-x 1 root   root       14568 Jul 21  2020  uuidgen
+-rwxr-xr-x 1 root   root       39144 Jul 21  2020  uuidparse
+-rwxr-xr-x 1 root   root        6912 Feb 26  2020  vcs-run
+-rwxr-xr-x 1 root   root      142144 Sep  5  2019  vdir
+lrwxrwxrwx 1 root   root          20 Aug 20 06:40  vi -> /etc/alternatives/vi
+lrwxrwxrwx 1 root   root          22 Aug 20 06:40  view -> /etc/alternatives/view
+-rwxr-xr-x 1 root   root       32016 Feb 29  2020  viewres
+-rwxr-xr-x 1 root   root        2640 Feb 17  2020  vigpg
+lrwxrwxrwx 1 root   root          21 Aug 20 06:42  vim -> /etc/alternatives/vim
+-rwxr-xr-x 1 root   root     2906824 Nov  8 23:21  vim.basic
+-rwxr-xr-x 1 root   root     1349848 Nov  8 23:21  vim.tiny
+lrwxrwxrwx 1 root   root          25 Aug 20 06:42  vimdiff -> /etc/alternatives/vimdiff
+-rwxr-xr-x 1 root   root        2121 Nov  8 23:21  vimtutor
+-rwxr-xr-x 1 root   root       10623 Oct 12 14:53  vm-support
+-rwxr-xr-x 1 root   root       56112 Oct 12 14:53  vmhgfs-fuse
+-rwxr-xr-x 1 root   root       39168 Sep  9 21:59  vmstat
+-rwxr-xr-x 1 root   root       76352 Oct 12 14:53  vmtoolsd
+-rwxr-xr-x 1 root   root       72224 Oct 12 14:53  vmware-alias-import
+-rwxr-xr-x 1 root   root       14720 Oct 12 14:53  vmware-checkvm
+-rwxr-xr-x 1 root   root       14720 Oct 12 14:53  vmware-hgfsclient
+-rwxr-xr-x 1 root   root       22840 Oct 12 14:53  vmware-namespace-cmd
+-rwxr-xr-x 1 root   root       31032 Oct 12 14:53  vmware-rpctool
+-rwxr-xr-x 1 root   root       60000 Oct 12 14:53  vmware-toolbox-cmd
+-rwxr-xr-x 1 root   root       18744 Oct 12 14:53  vmware-vgauth-cmd
+-rwxr-xr-x 1 root   root       23264 Oct 12 14:53  vmware-vmblock-fuse
+-rwxr-xr-x 1 root   root       57752 Oct 12 14:53  vmware-xferlogs
+-rwxr-xr-x 1 root   root       14488 Jul  8  2019  volname
+lrwxrwxrwx 1 root   root          19 Aug 20 06:40  w -> /etc/alternatives/w
+-rwxr-xr-x 1 root   root       22760 Sep  9 21:59  w.procps
+-rwxr-sr-x 1 root   tty        35048 Jul 21  2020  wall
+-rwxr-xr-x 1 root   root       27208 Sep  9 21:59  watch
+-rwxr-xr-x 1 root   root       18744 Jan  7  2021  watchgnupg
+-rwxr-xr-x 1 root   root       47456 Sep  5  2019  wc
+-rwxr-xr-x 1 root   root       35048 Jul 21  2020  wdctl
+-rwxr-xr-x 1 root   root      544472 Nov 13 02:09  wget
+-rwxr-xr-x 1 root   root       56536 Feb 26  2020  whatis
+-rwxr-xr-x 1 root   root       35496 Jul 21  2020  whereis
+-rwxr-xr-x 1 root   root         946 Dec  7  2019  which
+-rwxr-xr-x 1 root   root       34984 Feb 18  2020  whiptail
+-rwxr-xr-x 1 root   root       59768 Sep  5  2019  who
+-rwxr-xr-x 1 root   root       39256 Sep  5  2019  whoami
+-rwxr-xr-x 1 root   root        2107 Feb 17  2020  wifi-status
+lrwxrwxrwx 1 root   root          23 Aug 20 06:42  write -> /etc/alternatives/write
+-rwxr-xr-x 1 root   root       24954 Jun 17  2020  wslfetch
+lrwxrwxrwx 1 root   root           5 Dec 13 10:41  wslpath -> /init
+-rwxr-xr-x 1 root   root        8887 Jun 17  2020  wslsys
+-rwxr-xr-x 1 root   root        8398 Jun 17  2020  wslupath
+-rwxr-xr-x 1 root   root       12470 Jun 17  2020  wslusc
+-rwxr-xr-x 1 root   root        7412 Jun 17  2020  wslvar
+-rwxr-xr-x 1 root   root        7509 Jun 17  2020  wslview
+-rwxr-xr-x 1 root   root       45634 Nov  6 04:03  wsrep_sst_common
+-rwxr-xr-x 1 root   root       44071 Nov  6 04:03  wsrep_sst_mariabackup
+-rwxr-xr-x 1 root   root        7773 Nov  6 04:03  wsrep_sst_mysqldump
+-rwxr-xr-x 1 root   root       23987 Nov  6 04:03  wsrep_sst_rsync
+lrwxrwxrwx 1 root   root          29 Aug 20 07:20  www-browser -> /etc/alternatives/www-browser
+lrwxrwxrwx 1 root   root          31 Aug 20 07:20  x-www-browser -> /etc/alternatives/x-www-browser
+lrwxrwxrwx 1 root   root           7 Jul 21  2020  x86_64 -> setarch
+-rwxr-xr-x 1 root   root       76152 Feb 18  2020  xargs
+-rwxr-xr-x 1 root   root       56288 Aug 25  2019  xauth
+-rwxr-xr-x 1 root   root         234 Jan 24  2019  xdg-user-dir
+-rwxr-xr-x 1 root   root       26696 Jan 24  2019  xdg-user-dirs-update
+-rwxr-xr-x 1 root   root       44104 Feb 29  2020  xdpyinfo
+-rwxr-xr-x 1 root   root       14648 Feb 29  2020  xdriinfo
+-rwxr-xr-x 1 root   root       35488 Feb 29  2020  xev
+-rwxr-xr-x 1 root   root       41024 Feb 29  2020  xfd
+-rwxr-xr-x 1 root   root       49056 Feb 29  2020  xfontsel
+-rwxr-xr-x 1 root   root       14648 Feb 29  2020  xkill
+-rwxr-xr-x 1 root   root       14648 Feb 29  2020  xlsatoms
+-rwxr-xr-x 1 root   root       18752 Feb 29  2020  xlsclients
+-rwxr-xr-x 1 root   root       27032 Feb 29  2020  xlsfonts
+-rwxr-xr-x 1 root   root       27840 Feb 29  2020  xmessage
+-rwxr-xr-x 1 root   root       49768 Feb 29  2020  xprop
+-rwxr-xr-x 1 root   root        5164 Oct 19  2020  xsubpp
+-rwxr-xr-x 1 root   root       18744 Feb 29  2020  xvinfo
+-rwxr-xr-x 1 root   root       51592 Feb 29  2020  xwininfo
+-rwxr-xr-x 1 root   root       18712 Nov  8 23:21  xxd
+-rwxr-xr-x 1 root   root       80384 Apr 21  2020  xz
+lrwxrwxrwx 1 root   root           2 Apr 21  2020  xzcat -> xz
+lrwxrwxrwx 1 root   root           6 Apr 21  2020  xzcmp -> xzdiff
+-rwxr-xr-x 1 root   root        6632 Apr 21  2020  xzdiff
+lrwxrwxrwx 1 root   root           6 Apr 21  2020  xzegrep -> xzgrep
+lrwxrwxrwx 1 root   root           6 Apr 21  2020  xzfgrep -> xzgrep
+-rwxr-xr-x 1 root   root        5628 Apr 21  2020  xzgrep
+-rwxr-xr-x 1 root   root        1802 Apr 21  2020  xzless
+-rwxr-xr-x 1 root   root        2161 Apr 21  2020  xzmore
+-rwxr-xr-x 1 root   root       39256 Sep  5  2019  yes
+lrwxrwxrwx 1 root   root           8 Nov  7  2019  ypdomainname -> hostname
+-rwxr-xr-x 1 root   root        1984 Dec 14  2019  zcat
+-rwxr-xr-x 1 root   root        1678 Dec 14  2019  zcmp
+-rwxr-xr-x 1 root   root        5880 Dec 14  2019  zdiff
+-rwxr-xr-x 1 root   root       26840 Dec 16  2020  zdump
+-rwxr-xr-x 1 root   root          29 Dec 14  2019  zegrep
+-rwxr-xr-x 1 root   root          29 Dec 14  2019  zfgrep
+-rwxr-xr-x 1 root   root        2081 Dec 14  2019  zforce
+-rwxr-xr-x 1 root   root        7585 Dec 14  2019  zgrep
+-rwxr-xr-x 1 root   root       50718 Oct 19  2020  zipdetails
+-rwxr-xr-x 1 root   root        2206 Dec 14  2019  zless
+-rwxr-xr-x 1 root   root        1842 Dec 14  2019  zmore
+-rwxr-xr-x 1 root   root        4553 Dec 14  2019  znew
+root@DESKTOP-9KIEGIH:/usr/bin# ll | grep passwd
+-rwsr-xr-x 1 root   root       88464 Jul 15 07:08 gpasswd*
+-rwsr-xr-x 1 root   root       68208 Jul 15 07:08 passwd*
+root@DESKTOP-9KIEGIH:/usr/bin# cd ..
+root@DESKTOP-9KIEGIH:/usr# cd ..
+root@DESKTOP-9KIEGIH:/# ls -al
+total 624
+drwxr-xr-x  1 root root   4096 Dec 13 10:41 .
+drwxr-xr-x  1 root root   4096 Dec 13 10:41 ..
+lrwxrwxrwx  1 root root      7 Aug 20 06:39 bin -> usr/bin
+drwxr-xr-x  1 root root   4096 Aug 20 06:52 boot
+drwxr-xr-x  1 root root   4096 Dec 16 11:09 dev
+drwxr-xr-x  1 root root   4096 Dec 16 11:09 etc
+drwxr-xr-x  1 root root   4096 Dec 14 10:07 home
+-rwxr-xr-x  1 root root 636192 Dec 16 04:19 init
+lrwxrwxrwx  1 root root      7 Aug 20 06:39 lib -> usr/lib
+lrwxrwxrwx  1 root root      9 Aug 20 06:39 lib32 -> usr/lib32
+lrwxrwxrwx  1 root root      9 Aug 20 06:39 lib64 -> usr/lib64
+lrwxrwxrwx  1 root root     10 Aug 20 06:39 libx32 -> usr/libx32
+drwxr-xr-x  1 root root   4096 Aug 20 06:40 media
+drwxr-xr-x  1 root root   4096 Dec 13 10:41 mnt
+drwxr-xr-x  1 root root   4096 Aug 20 06:40 opt
+dr-xr-xr-x 15 root root      0 Dec 16 08:59 proc
+drwx------  1 root root   4096 Dec 17 09:08 root
+drwxr-xr-x  1 root root   4096 Dec 17 09:13 run
+lrwxrwxrwx  1 root root      8 Aug 20 06:39 sbin -> usr/sbin
+drwxr-xr-x  1 root root   4096 Aug 20 06:43 snap
+drwxr-xr-x  1 root root   4096 Aug 20 06:40 srv
+dr-xr-xr-x 12 root root      0 Dec 16 08:59 sys
+drwxrwxrwt  1 root root   4096 Dec 17 09:13 tmp
+drwxr-xr-x  1 root root   4096 Aug 20 06:42 usr
+drwxr-xr-x  1 root root   4096 Aug 20 06:43 var
+root@DESKTOP-9KIEGIH:/# cd /home
+root@DESKTOP-9KIEGIH:/home# ls -al
+total 0
+drwxr-xr-x 1 root         root         4096 Dec 14 10:07 .
+drwxr-xr-x 1 root         root         4096 Dec 13 10:41 ..
+drwxr-xr-x 1 jeonjinyoung jeonjinyoung 4096 Dec 16 22:05 jeonjinyoung
+drwxr-xr-x 1 play1        play1        4096 Dec 14 09:57 play1
+drwxr-xr-x 1 user1        user1        4096 Dec 14 10:08 user1
+drwxr-xr-x 1 user2        user2        4096 Dec 14 10:08 user2
+drwxr-xr-x 1 user_1       user_1       4096 Dec 14 09:54 user_1
+root@DESKTOP-9KIEGIH:/home# cd play1
+root@DESKTOP-9KIEGIH:/home/play1# ls -al
+total 8
+drwxr-xr-x 1 play1 play1 4096 Dec 14 09:57 .
+drwxr-xr-x 1 root  root  4096 Dec 14 10:07 ..
+-rw-r--r-- 1 play1 play1  220 Feb 25  2020 .bash_logout
+-rw-r--r-- 1 play1 play1 3771 Feb 25  2020 .bashrc
+drwxr-xr-x 1 play1 play1 4096 Dec 14 09:57 .landscape
+-rw-rw-r-- 1 play1 play1    0 Dec 14 09:57 .motd_shown
+-rw-r--r-- 1 play1 play1  807 Feb 25  2020 .profile
+root@DESKTOP-9KIEGIH:/home/play1# touch shell_script.sh
+root@DESKTOP-9KIEGIH:/home/play1# vim shell_script.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./shell_script.sh
+-bash: ./shell_script.sh: Permission denied
+root@DESKTOP-9KIEGIH:/home/play1#  ./shell_script.sh
+-bash: ./shell_script.sh: Permission denied
+root@DESKTOP-9KIEGIH:/home/play1# chmod +x shell_script.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./shell_script.sh
+File Name:./shell_script.sh
+First Parameter:
+Second Prameter:
+Quoted Values:
+Quoted Values:
+Total Number of Parameters:0
+root@DESKTOP-9KIEGIH:/home/play1# vim shell_script.sh
+root@DESKTOP-9KIEGIH:/home/play1# vim shell_script.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./shell_script.sh
+./shell_script.sh: line 3: =KyunBae: command not found
+./shell_script.sh: line 4: =Park: command not found
+./shell_script.sh: line 5: =KyunBae park: command not found
+./shell_script.sh: line 6: =KyunBae park: command not found
+File Name:./shell_script.sh
+First Parameter:
+Second Prameter:
+Quoted Values:
+Quoted Values:
+Total Number of Parameters:0
+root@DESKTOP-9KIEGIH:/home/play1# vim shell_script.sh
+root@DESKTOP-9KIEGIH:/home/play1# vim shell_script.sh
+root@DESKTOP-9KIEGIH:/home/play1# vim shell_script.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./shell_script.sh
+./shell_script.sh: line 3: =KyunBae: command not found
+./shell_script.sh: line 4: =Park: command not found
+./shell_script.sh: line 5: =KyunBae park: command not found
+./shell_script.sh: line 6: =KyunBae park: command not found
+File Name:./shell_script.sh
+First Parameter:
+Second Prameter:
+Quoted Values:
+Quoted Values:
+Total Number of Parameters:0
+root@DESKTOP-9KIEGIH:/home/play1# ./shell_script.sh jinyoung yeon gogo
+./shell_script.sh: line 3: jinyoung=KyunBae: command not found
+./shell_script.sh: line 4: yeon=Park: command not found
+./shell_script.sh: line 5: jinyoung: command not found
+./shell_script.sh: line 6: jinyoung: command not found
+File Name:./shell_script.sh
+First Parameter:jinyoung
+Second Prameter:yeon
+Quoted Values:jinyoung yeon gogo
+Quoted Values:jinyoung yeon gogo
+Total Number of Parameters:3
+root@DESKTOP-9KIEGIH:/home/play1# touch for
+root@DESKTOP-9KIEGIH:/home/play1# touch for.sh
+root@DESKTOP-9KIEGIH:/home/play1# vim for.sh
+root@DESKTOP-9KIEGIH:/home/play1# chmod +x for.sh
+root@DESKTOP-9KIEGIH:/home/play1#  ./for.sh
+root@DESKTOP-9KIEGIH:/home/play1# vim for.sh
+root@DESKTOP-9KIEGIH:/home/play1#  ./for.sh
+./for.sh: line 3: =10: command not found
+root@DESKTOP-9KIEGIH:/home/play1# ./for.sh
+./for.sh: line 3: =10: command not found
+root@DESKTOP-9KIEGIH:/home/play1# vim for.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./for.sh
+./for.sh: line 3: =10: command not found
+root@DESKTOP-9KIEGIH:/home/play1# vim for.sh
+root@DESKTOP-9KIEGIH:/home/play1# vim for.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./for.sh
+./for.sh: line 3: =10: command not found
+root@DESKTOP-9KIEGIH:/home/play1# vim for.sh
+root@DESKTOP-9KIEGIH:/home/play1# touch jinyoung.sh
+root@DESKTOP-9KIEGIH:/home/play1# ls-al
+ls-al: command not found
+root@DESKTOP-9KIEGIH:/home/play1# ls -al
+total 8
+drwxr-xr-x 1 play1 play1 4096 Dec 17 09:40 .
+drwxr-xr-x 1 root  root  4096 Dec 14 10:07 ..
+-rw-r--r-- 1 play1 play1  220 Feb 25  2020 .bash_logout
+-rw-r--r-- 1 play1 play1 3771 Feb 25  2020 .bashrc
+drwxr-xr-x 1 play1 play1 4096 Dec 14 09:57 .landscape
+-rw-rw-r-- 1 play1 play1    0 Dec 14 09:57 .motd_shown
+-rw-r--r-- 1 play1 play1  807 Feb 25  2020 .profile
+-rw-r--r-- 1 root  root     0 Dec 17 09:35 for
+-rwxr-xr-x 1 root  root    63 Dec 17 09:38 for.sh
+-rw-r--r-- 1 root  root     0 Dec 17 09:40 jinyoung.sh
+-rwxr-xr-x 1 root  root   235 Dec 17 09:30 shell_script.sh
+root@DESKTOP-9KIEGIH:/home/play1# vim jinyoung.sh
+root@DESKTOP-9KIEGIH:/home/play1# chomd +x jinyoung.sh
+
+Command 'chomd' not found, did you mean:
+
+  command 'chmod' from deb coreutils (8.30-3ubuntu2)
+
+Try: apt install <deb name>
+
+root@DESKTOP-9KIEGIH:/home/play1# chmod +x jinyoung.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./jinyoung.sh
+This script name is jinyoung.sh
+root@DESKTOP-9KIEGIH:/home/play1# vi hello.sh
+root@DESKTOP-9KIEGIH:/home/play1# vi hello.cpp
+root@DESKTOP-9KIEGIH:/home/play1# ll
+total 8
+drwxr-xr-x 1 play1 play1 4096 Dec 17 09:56 ./
+drwxr-xr-x 1 root  root  4096 Dec 14 10:07 ../
+-rw-r--r-- 1 play1 play1  220 Feb 25  2020 .bash_logout
+-rw-r--r-- 1 play1 play1 3771 Feb 25  2020 .bashrc
+drwxr-xr-x 1 play1 play1 4096 Dec 14 09:57 .landscape/
+-rw-rw-r-- 1 play1 play1    0 Dec 14 09:57 .motd_shown
+-rw-r--r-- 1 play1 play1  807 Feb 25  2020 .profile
+-rw-r--r-- 1 root  root     0 Dec 17 09:35 for
+-rwxr-xr-x 1 root  root    63 Dec 17 09:38 for.sh*
+-rw-r--r-- 1 root  root     0 Dec 17 09:56 hello.cpp
+-rw-r--r-- 1 root  root     0 Dec 17 09:45 hello.sh
+-rwxr-xr-x 1 root  root    78 Dec 17 09:43 jinyoung.sh*
+-rwxr-xr-x 1 root  root   235 Dec 17 09:30 shell_script.sh*
+root@DESKTOP-9KIEGIH:/home/play1# chmod 646 hello.cpp
+root@DESKTOP-9KIEGIH:/home/play1# ll
+total 8
+drwxr-xr-x 1 play1 play1 4096 Dec 17 09:56 ./
+drwxr-xr-x 1 root  root  4096 Dec 14 10:07 ../
+-rw-r--r-- 1 play1 play1  220 Feb 25  2020 .bash_logout
+-rw-r--r-- 1 play1 play1 3771 Feb 25  2020 .bashrc
+drwxr-xr-x 1 play1 play1 4096 Dec 14 09:57 .landscape/
+-rw-rw-r-- 1 play1 play1    0 Dec 14 09:57 .motd_shown
+-rw-r--r-- 1 play1 play1  807 Feb 25  2020 .profile
+-rw-r--r-- 1 root  root     0 Dec 17 09:35 for
+-rwxr-xr-x 1 root  root    63 Dec 17 09:38 for.sh*
+-rw-r--rw- 1 root  root     0 Dec 17 09:56 hello.cpp
+-rw-r--r-- 1 root  root     0 Dec 17 09:45 hello.sh
+-rwxr-xr-x 1 root  root    78 Dec 17 09:43 jinyoung.sh*
+-rwxr-xr-x 1 root  root   235 Dec 17 09:30 shell_script.sh*
+root@DESKTOP-9KIEGIH:/home/play1# chown play1:play1 hello.cpp
+root@DESKTOP-9KIEGIH:/home/play1# ll
+total 8
+drwxr-xr-x 1 play1 play1 4096 Dec 17 09:56 ./
+drwxr-xr-x 1 root  root  4096 Dec 14 10:07 ../
+-rw-r--r-- 1 play1 play1  220 Feb 25  2020 .bash_logout
+-rw-r--r-- 1 play1 play1 3771 Feb 25  2020 .bashrc
+drwxr-xr-x 1 play1 play1 4096 Dec 14 09:57 .landscape/
+-rw-rw-r-- 1 play1 play1    0 Dec 14 09:57 .motd_shown
+-rw-r--r-- 1 play1 play1  807 Feb 25  2020 .profile
+-rw-r--r-- 1 root  root     0 Dec 17 09:35 for
+-rwxr-xr-x 1 root  root    63 Dec 17 09:38 for.sh*
+-rw-r--rw- 1 play1 play1    0 Dec 17 09:56 hello.cpp
+-rw-r--r-- 1 root  root     0 Dec 17 09:45 hello.sh
+-rwxr-xr-x 1 root  root    78 Dec 17 09:43 jinyoung.sh*
+-rwxr-xr-x 1 root  root   235 Dec 17 09:30 shell_script.sh*
+root@DESKTOP-9KIEGIH:/home/play1# g++ -o hello hello.cpp
+
+Command 'g++' not found, but can be installed with:
+
+apt install g++
+
+root@DESKTOP-9KIEGIH:/home/play1# cd ..
+root@DESKTOP-9KIEGIH:/home# cd ..
+root@DESKTOP-9KIEGIH:/# sudo apt-get intall g++
+E: Invalid operation intall
+root@DESKTOP-9KIEGIH:/# ^C
+root@DESKTOP-9KIEGIH:/# sudo apt-get install g++
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following additional packages will be installed:
+  binutils binutils-common binutils-x86-64-linux-gnu cpp cpp-9 g++-9 gcc gcc-9 gcc-9-base libasan5 libatomic1
+  libbinutils libc-dev-bin libc6-dev libcc1-0 libcrypt-dev libctf-nobfd0 libctf0 libgcc-9-dev libgomp1 libisl22
+  libitm1 liblsan0 libmpc3 libquadmath0 libstdc++-9-dev libtsan0 libubsan1 linux-libc-dev manpages-dev
+Suggested packages:
+  binutils-doc cpp-doc gcc-9-locales g++-multilib g++-9-multilib gcc-9-doc gcc-multilib make autoconf automake libtool
+  flex bison gdb gcc-doc gcc-9-multilib glibc-doc libstdc++-9-doc
+The following NEW packages will be installed:
+  binutils binutils-common binutils-x86-64-linux-gnu cpp cpp-9 g++ g++-9 gcc gcc-9 gcc-9-base libasan5 libatomic1
+  libbinutils libc-dev-bin libc6-dev libcc1-0 libcrypt-dev libctf-nobfd0 libctf0 libgcc-9-dev libgomp1 libisl22
+  libitm1 liblsan0 libmpc3 libquadmath0 libstdc++-9-dev libtsan0 libubsan1 linux-libc-dev manpages-dev
+0 upgraded, 31 newly installed, 0 to remove and 2 not upgraded.
+Need to get 41.7 MB of archives.
+After this operation, 183 MB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+Get:1 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 binutils-common amd64 2.34-6ubuntu1.3 [207 kB]
+Get:2 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libbinutils amd64 2.34-6ubuntu1.3 [474 kB]
+Get:3 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libctf-nobfd0 amd64 2.34-6ubuntu1.3 [47.4 kB]
+Get:4 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libctf0 amd64 2.34-6ubuntu1.3 [46.6 kB]
+Get:5 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 binutils-x86-64-linux-gnu amd64 2.34-6ubuntu1.3 [1613 kB]
+Get:6 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 binutils amd64 2.34-6ubuntu1.3 [3380 B]
+Get:7 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 gcc-9-base amd64 9.3.0-17ubuntu1~20.04 [19.1 kB]
+Get:8 http://archive.ubuntu.com/ubuntu focal/main amd64 libisl22 amd64 0.22.1-1 [592 kB]
+Get:9 http://archive.ubuntu.com/ubuntu focal/main amd64 libmpc3 amd64 1.1.0-1 [40.8 kB]
+Get:10 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 cpp-9 amd64 9.3.0-17ubuntu1~20.04 [7494 kB]
+Get:11 http://archive.ubuntu.com/ubuntu focal/main amd64 cpp amd64 4:9.3.0-1ubuntu2 [27.6 kB]
+Get:12 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libcc1-0 amd64 10.3.0-1ubuntu1~20.04 [48.8 kB]
+Get:13 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgomp1 amd64 10.3.0-1ubuntu1~20.04 [102 kB]
+Get:14 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libitm1 amd64 10.3.0-1ubuntu1~20.04 [26.2 kB]
+Get:15 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libatomic1 amd64 10.3.0-1ubuntu1~20.04 [9284 B]
+Get:16 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libasan5 amd64 9.3.0-17ubuntu1~20.04 [394 kB]
+Get:17 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 liblsan0 amd64 10.3.0-1ubuntu1~20.04 [835 kB]
+Get:18 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libtsan0 amd64 10.3.0-1ubuntu1~20.04 [2009 kB]
+Get:19 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libubsan1 amd64 10.3.0-1ubuntu1~20.04 [784 kB]
+Get:20 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libquadmath0 amd64 10.3.0-1ubuntu1~20.04 [146 kB]
+Get:21 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgcc-9-dev amd64 9.3.0-17ubuntu1~20.04 [2360 kB]
+Get:22 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 gcc-9 amd64 9.3.0-17ubuntu1~20.04 [8241 kB]
+Get:23 http://archive.ubuntu.com/ubuntu focal/main amd64 gcc amd64 4:9.3.0-1ubuntu2 [5208 B]
+Get:24 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libc-dev-bin amd64 2.31-0ubuntu9.2 [71.8 kB]
+Get:25 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-libc-dev amd64 5.4.0-91.102 [1127 kB]
+Get:26 http://archive.ubuntu.com/ubuntu focal/main amd64 libcrypt-dev amd64 1:4.4.10-10ubuntu4 [104 kB]
+Get:27 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libc6-dev amd64 2.31-0ubuntu9.2 [2520 kB]
+Get:28 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libstdc++-9-dev amd64 9.3.0-17ubuntu1~20.04 [1714 kB]
+Get:29 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 g++-9 amd64 9.3.0-17ubuntu1~20.04 [8405 kB]
+Get:30 http://archive.ubuntu.com/ubuntu focal/main amd64 g++ amd64 4:9.3.0-1ubuntu2 [1604 B]
+Get:31 http://archive.ubuntu.com/ubuntu focal/main amd64 manpages-dev all 5.05-1 [2266 kB]
+Fetched 41.7 MB in 3min 10s (219 kB/s)
+Extracting templates from packages: 100%
+Selecting previously unselected package binutils-common:amd64.
+(Reading database ... 33070 files and directories currently installed.)
+Preparing to unpack .../00-binutils-common_2.34-6ubuntu1.3_amd64.deb ...
+Unpacking binutils-common:amd64 (2.34-6ubuntu1.3) ...
+Selecting previously unselected package libbinutils:amd64.
+Preparing to unpack .../01-libbinutils_2.34-6ubuntu1.3_amd64.deb ...
+Unpacking libbinutils:amd64 (2.34-6ubuntu1.3) ...
+Selecting previously unselected package libctf-nobfd0:amd64.
+Preparing to unpack .../02-libctf-nobfd0_2.34-6ubuntu1.3_amd64.deb ...
+Unpacking libctf-nobfd0:amd64 (2.34-6ubuntu1.3) ...
+Selecting previously unselected package libctf0:amd64.
+Preparing to unpack .../03-libctf0_2.34-6ubuntu1.3_amd64.deb ...
+Unpacking libctf0:amd64 (2.34-6ubuntu1.3) ...
+Selecting previously unselected package binutils-x86-64-linux-gnu.
+Preparing to unpack .../04-binutils-x86-64-linux-gnu_2.34-6ubuntu1.3_amd64.deb ...
+Unpacking binutils-x86-64-linux-gnu (2.34-6ubuntu1.3) ...
+Selecting previously unselected package binutils.
+Preparing to unpack .../05-binutils_2.34-6ubuntu1.3_amd64.deb ...
+Unpacking binutils (2.34-6ubuntu1.3) ...
+Selecting previously unselected package gcc-9-base:amd64.
+Preparing to unpack .../06-gcc-9-base_9.3.0-17ubuntu1~20.04_amd64.deb ...
+Unpacking gcc-9-base:amd64 (9.3.0-17ubuntu1~20.04) ...
+Selecting previously unselected package libisl22:amd64.
+Preparing to unpack .../07-libisl22_0.22.1-1_amd64.deb ...
+Unpacking libisl22:amd64 (0.22.1-1) ...
+Selecting previously unselected package libmpc3:amd64.
+Preparing to unpack .../08-libmpc3_1.1.0-1_amd64.deb ...
+Unpacking libmpc3:amd64 (1.1.0-1) ...
+Selecting previously unselected package cpp-9.
+Preparing to unpack .../09-cpp-9_9.3.0-17ubuntu1~20.04_amd64.deb ...
+Unpacking cpp-9 (9.3.0-17ubuntu1~20.04) ...
+Selecting previously unselected package cpp.
+Preparing to unpack .../10-cpp_4%3a9.3.0-1ubuntu2_amd64.deb ...
+Unpacking cpp (4:9.3.0-1ubuntu2) ...
+Selecting previously unselected package libcc1-0:amd64.
+Preparing to unpack .../11-libcc1-0_10.3.0-1ubuntu1~20.04_amd64.deb ...
+Unpacking libcc1-0:amd64 (10.3.0-1ubuntu1~20.04) ...
+Selecting previously unselected package libgomp1:amd64.
+Preparing to unpack .../12-libgomp1_10.3.0-1ubuntu1~20.04_amd64.deb ...
+Unpacking libgomp1:amd64 (10.3.0-1ubuntu1~20.04) ...
+Selecting previously unselected package libitm1:amd64.
+Preparing to unpack .../13-libitm1_10.3.0-1ubuntu1~20.04_amd64.deb ...
+Unpacking libitm1:amd64 (10.3.0-1ubuntu1~20.04) ...
+Selecting previously unselected package libatomic1:amd64.
+Preparing to unpack .../14-libatomic1_10.3.0-1ubuntu1~20.04_amd64.deb ...
+Unpacking libatomic1:amd64 (10.3.0-1ubuntu1~20.04) ...
+Selecting previously unselected package libasan5:amd64.
+Preparing to unpack .../15-libasan5_9.3.0-17ubuntu1~20.04_amd64.deb ...
+Unpacking libasan5:amd64 (9.3.0-17ubuntu1~20.04) ...
+Selecting previously unselected package liblsan0:amd64.
+Preparing to unpack .../16-liblsan0_10.3.0-1ubuntu1~20.04_amd64.deb ...
+Unpacking liblsan0:amd64 (10.3.0-1ubuntu1~20.04) ...
+Selecting previously unselected package libtsan0:amd64.
+Preparing to unpack .../17-libtsan0_10.3.0-1ubuntu1~20.04_amd64.deb ...
+Unpacking libtsan0:amd64 (10.3.0-1ubuntu1~20.04) ...
+Selecting previously unselected package libubsan1:amd64.
+Preparing to unpack .../18-libubsan1_10.3.0-1ubuntu1~20.04_amd64.deb ...
+Unpacking libubsan1:amd64 (10.3.0-1ubuntu1~20.04) ...
+Selecting previously unselected package libquadmath0:amd64.
+Preparing to unpack .../19-libquadmath0_10.3.0-1ubuntu1~20.04_amd64.deb ...
+Unpacking libquadmath0:amd64 (10.3.0-1ubuntu1~20.04) ...
+Selecting previously unselected package libgcc-9-dev:amd64.
+Preparing to unpack .../20-libgcc-9-dev_9.3.0-17ubuntu1~20.04_amd64.deb ...
+Unpacking libgcc-9-dev:amd64 (9.3.0-17ubuntu1~20.04) ...
+Selecting previously unselected package gcc-9.
+Preparing to unpack .../21-gcc-9_9.3.0-17ubuntu1~20.04_amd64.deb ...
+Unpacking gcc-9 (9.3.0-17ubuntu1~20.04) ...
+Selecting previously unselected package gcc.
+Preparing to unpack .../22-gcc_4%3a9.3.0-1ubuntu2_amd64.deb ...
+Unpacking gcc (4:9.3.0-1ubuntu2) ...
+Selecting previously unselected package libc-dev-bin.
+Preparing to unpack .../23-libc-dev-bin_2.31-0ubuntu9.2_amd64.deb ...
+Unpacking libc-dev-bin (2.31-0ubuntu9.2) ...
+Selecting previously unselected package linux-libc-dev:amd64.
+Preparing to unpack .../24-linux-libc-dev_5.4.0-91.102_amd64.deb ...
+Unpacking linux-libc-dev:amd64 (5.4.0-91.102) ...
+Selecting previously unselected package libcrypt-dev:amd64.
+Preparing to unpack .../25-libcrypt-dev_1%3a4.4.10-10ubuntu4_amd64.deb ...
+Unpacking libcrypt-dev:amd64 (1:4.4.10-10ubuntu4) ...
+Selecting previously unselected package libc6-dev:amd64.
+Preparing to unpack .../26-libc6-dev_2.31-0ubuntu9.2_amd64.deb ...
+Unpacking libc6-dev:amd64 (2.31-0ubuntu9.2) ...
+Selecting previously unselected package libstdc++-9-dev:amd64.
+Preparing to unpack .../27-libstdc++-9-dev_9.3.0-17ubuntu1~20.04_amd64.deb ...
+Unpacking libstdc++-9-dev:amd64 (9.3.0-17ubuntu1~20.04) ...
+Selecting previously unselected package g++-9.
+Preparing to unpack .../28-g++-9_9.3.0-17ubuntu1~20.04_amd64.deb ...
+Unpacking g++-9 (9.3.0-17ubuntu1~20.04) ...
+Selecting previously unselected package g++.
+Preparing to unpack .../29-g++_4%3a9.3.0-1ubuntu2_amd64.deb ...
+Unpacking g++ (4:9.3.0-1ubuntu2) ...
+Selecting previously unselected package manpages-dev.
+Preparing to unpack .../30-manpages-dev_5.05-1_all.deb ...
+Unpacking manpages-dev (5.05-1) ...
+Setting up manpages-dev (5.05-1) ...
+Setting up binutils-common:amd64 (2.34-6ubuntu1.3) ...
+Setting up linux-libc-dev:amd64 (5.4.0-91.102) ...
+Setting up libctf-nobfd0:amd64 (2.34-6ubuntu1.3) ...
+Setting up libgomp1:amd64 (10.3.0-1ubuntu1~20.04) ...
+Setting up libquadmath0:amd64 (10.3.0-1ubuntu1~20.04) ...
+Setting up libmpc3:amd64 (1.1.0-1) ...
+Setting up libatomic1:amd64 (10.3.0-1ubuntu1~20.04) ...
+Setting up libubsan1:amd64 (10.3.0-1ubuntu1~20.04) ...
+Setting up libcrypt-dev:amd64 (1:4.4.10-10ubuntu4) ...
+Setting up libisl22:amd64 (0.22.1-1) ...
+Setting up libbinutils:amd64 (2.34-6ubuntu1.3) ...
+Setting up libc-dev-bin (2.31-0ubuntu9.2) ...
+Setting up libcc1-0:amd64 (10.3.0-1ubuntu1~20.04) ...
+Setting up liblsan0:amd64 (10.3.0-1ubuntu1~20.04) ...
+Setting up libitm1:amd64 (10.3.0-1ubuntu1~20.04) ...
+Setting up gcc-9-base:amd64 (9.3.0-17ubuntu1~20.04) ...
+Setting up libtsan0:amd64 (10.3.0-1ubuntu1~20.04) ...
+Setting up libctf0:amd64 (2.34-6ubuntu1.3) ...
+Setting up libasan5:amd64 (9.3.0-17ubuntu1~20.04) ...
+Setting up cpp-9 (9.3.0-17ubuntu1~20.04) ...
+Setting up libc6-dev:amd64 (2.31-0ubuntu9.2) ...
+Setting up binutils-x86-64-linux-gnu (2.34-6ubuntu1.3) ...
+Setting up binutils (2.34-6ubuntu1.3) ...
+Setting up libgcc-9-dev:amd64 (9.3.0-17ubuntu1~20.04) ...
+Setting up cpp (4:9.3.0-1ubuntu2) ...
+Setting up gcc-9 (9.3.0-17ubuntu1~20.04) ...
+Setting up libstdc++-9-dev:amd64 (9.3.0-17ubuntu1~20.04) ...
+Setting up gcc (4:9.3.0-1ubuntu2) ...
+Setting up g++-9 (9.3.0-17ubuntu1~20.04) ...
+Setting up g++ (4:9.3.0-1ubuntu2) ...
+update-alternatives: using /usr/bin/g++ to provide /usr/bin/c++ (c++) in auto mode
+Processing triggers for man-db (2.9.1-1) ...
+
+
+
+
+
+
+
+
+
+Processing triggers for libc-bin (2.31-0ubuntu9.2) ...
+root@DESKTOP-9KIEGIH:/#
+root@DESKTOP-9KIEGIH:/# cd /home/play1
+root@DESKTOP-9KIEGIH:/home/play1# ll
+total 8
+drwxr-xr-x 1 play1 play1 4096 Dec 17 09:56 ./
+drwxr-xr-x 1 root  root  4096 Dec 14 10:07 ../
+-rw-r--r-- 1 play1 play1  220 Feb 25  2020 .bash_logout
+-rw-r--r-- 1 play1 play1 3771 Feb 25  2020 .bashrc
+drwxr-xr-x 1 play1 play1 4096 Dec 14 09:57 .landscape/
+-rw-rw-r-- 1 play1 play1    0 Dec 14 09:57 .motd_shown
+-rw-r--r-- 1 play1 play1  807 Feb 25  2020 .profile
+-rw-r--r-- 1 root  root     0 Dec 17 09:35 for
+-rwxr-xr-x 1 root  root    63 Dec 17 09:38 for.sh*
+-rw-r--rw- 1 play1 play1  125 Dec 17 10:07 hello.cpp
+-rw-r--r-- 1 root  root     0 Dec 17 09:45 hello.sh
+-rwxr-xr-x 1 root  root    78 Dec 17 09:43 jinyoung.sh*
+-rwxr-xr-x 1 root  root   235 Dec 17 09:30 shell_script.sh*
+root@DESKTOP-9KIEGIH:/home/play1# vi hello.cpp
+root@DESKTOP-9KIEGIH:/home/play1# vi hello.sh
+root@DESKTOP-9KIEGIH:/home/play1# chmod 744 hello.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./hello.sh
+./hello.sh: line 3: ./hello: No such file or directory
+
+root@DESKTOP-9KIEGIH:/home/play1# ll
+total 8
+drwxr-xr-x 1 play1 play1 4096 Dec 17 10:18 ./
+drwxr-xr-x 1 root  root  4096 Dec 14 10:07 ../
+-rw-r--r-- 1 play1 play1  220 Feb 25  2020 .bash_logout
+-rw-r--r-- 1 play1 play1 3771 Feb 25  2020 .bashrc
+drwxr-xr-x 1 play1 play1 4096 Dec 14 09:57 .landscape/
+-rw-rw-r-- 1 play1 play1    0 Dec 14 09:57 .motd_shown
+-rw-r--r-- 1 play1 play1  807 Feb 25  2020 .profile
+-rw-r--r-- 1 root  root     0 Dec 17 09:35 for
+-rwxr-xr-x 1 root  root    63 Dec 17 09:38 for.sh*
+-rw-r--rw- 1 play1 play1  126 Dec 17 10:17 hello.cpp
+-rwxr--r-- 1 root  root    56 Dec 17 10:18 hello.sh*
+-rwxr-xr-x 1 root  root    78 Dec 17 09:43 jinyoung.sh*
+-rwxr-xr-x 1 root  root   235 Dec 17 09:30 shell_script.sh*
+root@DESKTOP-9KIEGIH:/home/play1#  ./hello.sh
+./hello.sh: line 3: ./hello: No such file or directory
+
+root@DESKTOP-9KIEGIH:/home/play1# ./hello.sh*
+./hello.sh: line 3: ./hello: No such file or directory
+
+root@DESKTOP-9KIEGIH:/home/play1# cat hello.sh
+#!/bin/bash
+#hello.sh
+GREETING=`./hello`
+echo $GREETING
+root@DESKTOP-9KIEGIH:/home/play1# ./hello.sh
+./hello.sh: line 3: ./hello: No such file or directory
+
+root@DESKTOP-9KIEGIH:/home/play1# g++ -o hello hello.cpp
+root@DESKTOP-9KIEGIH:/home/play1# ./hello.sh
+Hello, World.
+root@DESKTOP-9KIEGIH:/home/play1# touch gogo
+root@DESKTOP-9KIEGIH:/home/play1# ll
+total 40
+drwxr-xr-x 1 play1 play1  4096 Dec 17 10:22 ./
+drwxr-xr-x 1 root  root   4096 Dec 14 10:07 ../
+-rw-r--r-- 1 play1 play1   220 Feb 25  2020 .bash_logout
+-rw-r--r-- 1 play1 play1  3771 Feb 25  2020 .bashrc
+drwxr-xr-x 1 play1 play1  4096 Dec 14 09:57 .landscape/
+-rw-rw-r-- 1 play1 play1     0 Dec 14 09:57 .motd_shown
+-rw-r--r-- 1 play1 play1   807 Feb 25  2020 .profile
+-rw-r--r-- 1 root  root      0 Dec 17 09:35 for
+-rwxr-xr-x 1 root  root     63 Dec 17 09:38 for.sh*
+-rw-r--r-- 1 root  root      0 Dec 17 10:22 gogo
+-rwxr-xr-x 1 root  root  17320 Dec 17 10:21 hello*
+-rw-r--rw- 1 play1 play1   126 Dec 17 10:17 hello.cpp
+-rwxr--r-- 1 root  root     56 Dec 17 10:18 hello.sh*
+-rwxr-xr-x 1 root  root     78 Dec 17 09:43 jinyoung.sh*
+-rwxr-xr-x 1 root  root    235 Dec 17 09:30 shell_script.sh*
+root@DESKTOP-9KIEGIH:/home/play1# touch gogo.cpp
+root@DESKTOP-9KIEGIH:/home/play1# chmod 646 gogo.cpp
+root@DESKTOP-9KIEGIH:/home/play1# ll
+total 40
+drwxr-xr-x 1 play1 play1  4096 Dec 17 10:22 ./
+drwxr-xr-x 1 root  root   4096 Dec 14 10:07 ../
+-rw-r--r-- 1 play1 play1   220 Feb 25  2020 .bash_logout
+-rw-r--r-- 1 play1 play1  3771 Feb 25  2020 .bashrc
+drwxr-xr-x 1 play1 play1  4096 Dec 14 09:57 .landscape/
+-rw-rw-r-- 1 play1 play1     0 Dec 14 09:57 .motd_shown
+-rw-r--r-- 1 play1 play1   807 Feb 25  2020 .profile
+-rw-r--r-- 1 root  root      0 Dec 17 09:35 for
+-rwxr-xr-x 1 root  root     63 Dec 17 09:38 for.sh*
+-rw-r--r-- 1 root  root      0 Dec 17 10:22 gogo
+-rw-r--rw- 1 root  root      0 Dec 17 10:22 gogo.cpp
+-rwxr-xr-x 1 root  root  17320 Dec 17 10:21 hello*
+-rw-r--rw- 1 play1 play1   126 Dec 17 10:17 hello.cpp
+-rwxr--r-- 1 root  root     56 Dec 17 10:18 hello.sh*
+-rwxr-xr-x 1 root  root     78 Dec 17 09:43 jinyoung.sh*
+-rwxr-xr-x 1 root  root    235 Dec 17 09:30 shell_script.sh*
+root@DESKTOP-9KIEGIH:/home/play1# g++ -o gogo gogo.cpp
+gogo.cpp: In function ‘int main()’:
+gogo.cpp:11:54: error: expected ‘;’ before ‘}’ token
+   11 |             cout <<a << "x" << b << "m" << a*b <<endl
+      |                                                      ^
+      |                                                      ;
+   12 |     }
+      |     ~
+root@DESKTOP-9KIEGIH:/home/play1# g++ -o gogo gogo.cpp
+gogo.cpp: In function ‘int main()’:
+gogo.cpp:11:55: error: expected ‘;’ before ‘}’ token
+   11 |             cout <<a << "x" << b << "m" << a*b << endl
+      |                                                       ^
+      |                                                       ;
+   12 |     }
+      |     ~
+root@DESKTOP-9KIEGIH:/home/play1# g++ -o gogo gogo.cpp
+root@DESKTOP-9KIEGIH:/home/play1# vi gogo
+
+[1]+  Stopped                 vi gogo
+root@DESKTOP-9KIEGIH:/home/play1# touch gogo.sh
+root@DESKTOP-9KIEGIH:/home/play1# vi gogo.sh
+root@DESKTOP-9KIEGIH:/home/play1# chmod 744 gogo.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./gogo.sh
+구구단 출력 2x1m2 2x2m4 2x3m6 2x4m8 2x5m10 2x6m12 2x7m14 2x8m16 2x9m18
+root@DESKTOP-9KIEGIH:/home/play1# ./gogo.sh
+구구단 출력 2x1m2 2x2m4 2x3m6 2x4m8 2x5m10 2x6m12 2x7m14 2x8m16 2x9m18
+root@DESKTOP-9KIEGIH:/home/play1# cat gogo.cpp
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "구구단 출력" <<endl;
+
+    for ( int a = 2; a < 3; a++){
+        for (int b = 1; b < 10; b++)
+            cout <<a << "x" << b << "=" << a*b << endl;
+    }
+
+    return 0;
+}
+root@DESKTOP-9KIEGIH:/home/play1# ./gogo.sh
+구구단 출력 2x1m2 2x2m4 2x3m6 2x4m8 2x5m10 2x6m12 2x7m14 2x8m16 2x9m18
+root@DESKTOP-9KIEGIH:/home/play1# cat gogo.sh
+#!/bin/bash
+#gogo.sh
+GREETING=`./gogo`
+echo $GREETING
+root@DESKTOP-9KIEGIH:/home/play1# date
+Fri Dec 17 10:40:48 KST 2021
+root@DESKTOP-9KIEGIH:/home/play1# date > date_save
+root@DESKTOP-9KIEGIH:/home/play1# ll
+total 76
+drwxr-xr-x 1 play1 play1  4096 Dec 17 10:41 ./
+drwxr-xr-x 1 root  root   4096 Dec 14 10:07 ../
+-rw-r--r-- 1 play1 play1   220 Feb 25  2020 .bash_logout
+-rw-r--r-- 1 play1 play1  3771 Feb 25  2020 .bashrc
+-rw-r--r-- 1 root  root   4096 Dec 17 10:27 .gogo.swp
+drwxr-xr-x 1 play1 play1  4096 Dec 14 09:57 .landscape/
+-rw-rw-r-- 1 play1 play1     0 Dec 14 09:57 .motd_shown
+-rw-r--r-- 1 play1 play1   807 Feb 25  2020 .profile
+-rw-r--r-- 1 root  root     29 Dec 17 10:41 date_save
+-rw-r--r-- 1 root  root      0 Dec 17 09:35 for
+-rwxr-xr-x 1 root  root     63 Dec 17 09:38 for.sh*
+-rwxr-xr-x 1 root  root  17368 Dec 17 10:26 gogo*
+-rw-r--rw- 1 root  root    264 Dec 17 10:30 gogo.cpp
+-rwxr--r-- 1 root  root     54 Dec 17 10:28 gogo.sh*
+-rwxr-xr-x 1 root  root  17320 Dec 17 10:21 hello*
+-rw-r--rw- 1 play1 play1   126 Dec 17 10:17 hello.cpp
+-rwxr--r-- 1 root  root     56 Dec 17 10:18 hello.sh*
+-rwxr-xr-x 1 root  root     78 Dec 17 09:43 jinyoung.sh*
+-rwxr-xr-x 1 root  root    235 Dec 17 09:30 shell_script.sh*
+root@DESKTOP-9KIEGIH:/home/play1# cat date_save
+Fri Dec 17 10:41:10 KST 2021
+root@DESKTOP-9KIEGIH:/home/play1# whoami > date_save
+root@DESKTOP-9KIEGIH:/home/play1# cat date_save
+root
+root@DESKTOP-9KIEGIH:/home/play1# ll
+total 76
+drwxr-xr-x 1 play1 play1  4096 Dec 17 10:41 ./
+drwxr-xr-x 1 root  root   4096 Dec 14 10:07 ../
+-rw-r--r-- 1 play1 play1   220 Feb 25  2020 .bash_logout
+-rw-r--r-- 1 play1 play1  3771 Feb 25  2020 .bashrc
+-rw-r--r-- 1 root  root   4096 Dec 17 10:27 .gogo.swp
+drwxr-xr-x 1 play1 play1  4096 Dec 14 09:57 .landscape/
+-rw-rw-r-- 1 play1 play1     0 Dec 14 09:57 .motd_shown
+-rw-r--r-- 1 play1 play1   807 Feb 25  2020 .profile
+-rw-r--r-- 1 root  root      5 Dec 17 10:42 date_save
+-rw-r--r-- 1 root  root      0 Dec 17 09:35 for
+-rwxr-xr-x 1 root  root     63 Dec 17 09:38 for.sh*
+-rwxr-xr-x 1 root  root  17368 Dec 17 10:26 gogo*
+-rw-r--rw- 1 root  root    264 Dec 17 10:30 gogo.cpp
+-rwxr--r-- 1 root  root     54 Dec 17 10:28 gogo.sh*
+-rwxr-xr-x 1 root  root  17320 Dec 17 10:21 hello*
+-rw-r--rw- 1 play1 play1   126 Dec 17 10:17 hello.cpp
+-rwxr--r-- 1 root  root     56 Dec 17 10:18 hello.sh*
+-rwxr-xr-x 1 root  root     78 Dec 17 09:43 jinyoung.sh*
+-rwxr-xr-x 1 root  root    235 Dec 17 09:30 shell_script.sh*
+root@DESKTOP-9KIEGIH:/home/play1# wc < hello.cpp
+  9  18 126
+root@DESKTOP-9KIEGIH:/home/play1# cat hello.cpp
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "Hello, World." <<endl;
+    return 0;
+}
+root@DESKTOP-9KIEGIH:/home/play1# touch arrtest1.sh
+root@DESKTOP-9KIEGIH:/home/play1# vi arrtest1.sh
+root@DESKTOP-9KIEGIH:/home/play1# chmod +x arrtest1.sh
+root@DESKTOP-9KIEGIH:/home/play1# cat arrtest1.sh
+#!/bin/bash
+
+array=(111 "kbpark" "KGA" 222 333)
+
+echo $array
+echo ${array[*]}
+echo ${array[2]}
+root@DESKTOP-9KIEGIH:/home/play1# ./arrtest1.sh
+111
+111 kbpark KGA 222 333
+KGA
+root@DESKTOP-9KIEGIH:/home/play1# uname -a
+Linux DESKTOP-9KIEGIH 4.4.0-19041-Microsoft #1237-Microsoft Sat Sep 11 14:32:00 PST 2021 x86_64 x86_64 x86_64 GNU/Linux
+root@DESKTOP-9KIEGIH:/home/play1# touch savevar.sh
+root@DESKTOP-9KIEGIH:/home/play1# vi savevar.sh
+root@DESKTOP-9KIEGIH:/home/play1# chmod +x savevar.sh
+root@DESKTOP-9KIEGIH:/home/play1# ll
+total 76
+drwxr-xr-x 1 play1 play1  4096 Dec 17 11:19 ./
+drwxr-xr-x 1 root  root   4096 Dec 14 10:07 ../
+-rw-r--r-- 1 play1 play1   220 Feb 25  2020 .bash_logout
+-rw-r--r-- 1 play1 play1  3771 Feb 25  2020 .bashrc
+-rw-r--r-- 1 root  root   4096 Dec 17 10:27 .gogo.swp
+drwxr-xr-x 1 play1 play1  4096 Dec 14 09:57 .landscape/
+-rw-rw-r-- 1 play1 play1     0 Dec 14 09:57 .motd_shown
+-rw-r--r-- 1 play1 play1   807 Feb 25  2020 .profile
+-rwxr-xr-x 1 root  root     95 Dec 17 11:08 arrtest1.sh*
+-rw-r--r-- 1 root  root      5 Dec 17 10:42 date_save
+-rw-r--r-- 1 root  root      0 Dec 17 09:35 for
+-rwxr-xr-x 1 root  root     63 Dec 17 09:38 for.sh*
+-rwxr-xr-x 1 root  root  17368 Dec 17 10:26 gogo*
+-rw-r--rw- 1 root  root    264 Dec 17 10:30 gogo.cpp
+-rwxr--r-- 1 root  root     54 Dec 17 10:28 gogo.sh*
+-rwxr-xr-x 1 root  root  17320 Dec 17 10:21 hello*
+-rw-r--rw- 1 play1 play1   126 Dec 17 10:17 hello.cpp
+-rwxr--r-- 1 root  root     56 Dec 17 10:18 hello.sh*
+-rwxr-xr-x 1 root  root     78 Dec 17 09:43 jinyoung.sh*
+-rwxr-xr-x 1 root  root    147 Dec 17 11:19 savevar.sh*
+-rwxr-xr-x 1 root  root    235 Dec 17 09:30 shell_script.sh*
+root@DESKTOP-9KIEGIH:/home/play1# cat sevevar.sh
+cat: sevevar.sh: No such file or directory
+root@DESKTOP-9KIEGIH:/home/play1# cat sevevar.sh*
+cat: 'sevevar.sh*': No such file or directory
+root@DESKTOP-9KIEGIH:/home/play1# ll
+total 76
+drwxr-xr-x 1 play1 play1  4096 Dec 17 11:19 ./
+drwxr-xr-x 1 root  root   4096 Dec 14 10:07 ../
+-rw-r--r-- 1 play1 play1   220 Feb 25  2020 .bash_logout
+-rw-r--r-- 1 play1 play1  3771 Feb 25  2020 .bashrc
+-rw-r--r-- 1 root  root   4096 Dec 17 10:27 .gogo.swp
+drwxr-xr-x 1 play1 play1  4096 Dec 14 09:57 .landscape/
+-rw-rw-r-- 1 play1 play1     0 Dec 14 09:57 .motd_shown
+-rw-r--r-- 1 play1 play1   807 Feb 25  2020 .profile
+-rwxr-xr-x 1 root  root     95 Dec 17 11:08 arrtest1.sh*
+-rw-r--r-- 1 root  root      5 Dec 17 10:42 date_save
+-rw-r--r-- 1 root  root      0 Dec 17 09:35 for
+-rwxr-xr-x 1 root  root     63 Dec 17 09:38 for.sh*
+-rwxr-xr-x 1 root  root  17368 Dec 17 10:26 gogo*
+-rw-r--rw- 1 root  root    264 Dec 17 10:30 gogo.cpp
+-rwxr--r-- 1 root  root     54 Dec 17 10:28 gogo.sh*
+-rwxr-xr-x 1 root  root  17320 Dec 17 10:21 hello*
+-rw-r--rw- 1 play1 play1   126 Dec 17 10:17 hello.cpp
+-rwxr--r-- 1 root  root     56 Dec 17 10:18 hello.sh*
+-rwxr-xr-x 1 root  root     78 Dec 17 09:43 jinyoung.sh*
+-rwxr-xr-x 1 root  root    147 Dec 17 11:19 savevar.sh*
+-rwxr-xr-x 1 root  root    235 Dec 17 09:30 shell_script.sh*
+root@DESKTOP-9KIEGIH:/home/play1# ll
+total 76
+drwxr-xr-x 1 play1 play1  4096 Dec 17 11:19 ./
+drwxr-xr-x 1 root  root   4096 Dec 14 10:07 ../
+-rw-r--r-- 1 play1 play1   220 Feb 25  2020 .bash_logout
+-rw-r--r-- 1 play1 play1  3771 Feb 25  2020 .bashrc
+-rw-r--r-- 1 root  root   4096 Dec 17 10:27 .gogo.swp
+drwxr-xr-x 1 play1 play1  4096 Dec 14 09:57 .landscape/
+-rw-rw-r-- 1 play1 play1     0 Dec 14 09:57 .motd_shown
+-rw-r--r-- 1 play1 play1   807 Feb 25  2020 .profile
+-rwxr-xr-x 1 root  root     95 Dec 17 11:08 arrtest1.sh*
+-rw-r--r-- 1 root  root      5 Dec 17 10:42 date_save
+-rw-r--r-- 1 root  root      0 Dec 17 09:35 for
+-rwxr-xr-x 1 root  root     63 Dec 17 09:38 for.sh*
+-rwxr-xr-x 1 root  root  17368 Dec 17 10:26 gogo*
+-rw-r--rw- 1 root  root    264 Dec 17 10:30 gogo.cpp
+-rwxr--r-- 1 root  root     54 Dec 17 10:28 gogo.sh*
+-rwxr-xr-x 1 root  root  17320 Dec 17 10:21 hello*
+-rw-r--rw- 1 play1 play1   126 Dec 17 10:17 hello.cpp
+-rwxr--r-- 1 root  root     56 Dec 17 10:18 hello.sh*
+-rwxr-xr-x 1 root  root     78 Dec 17 09:43 jinyoung.sh*
+-rwxr-xr-x 1 root  root    147 Dec 17 11:19 savevar.sh*
+-rwxr-xr-x 1 root  root    235 Dec 17 09:30 shell_script.sh*
+root@DESKTOP-9KIEGIH:/home/play1# ./sevevar.sh*
+-bash: ./sevevar.sh*: No such file or directory
+root@DESKTOP-9KIEGIH:/home/play1# chmod +x savevar.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./sevevar.sh*
+-bash: ./sevevar.sh*: No such file or directory
+root@DESKTOP-9KIEGIH:/home/play1# ./savevar.sh*
+debian
+11:20:53
+DESKTOP-9KIEGIH
+root@DESKTOP-9KIEGIH:/home/play1# touch varele.sh
+root@DESKTOP-9KIEGIH:/home/play1# vi varele.sh
+root@DESKTOP-9KIEGIH:/home/play1# chmod +x varele.sh
+root@DESKTOP-9KIEGIH:/home/play1# ll
+total 76
+drwxr-xr-x 1 play1 play1  4096 Dec 17 11:25 ./
+drwxr-xr-x 1 root  root   4096 Dec 14 10:07 ../
+-rw-r--r-- 1 play1 play1   220 Feb 25  2020 .bash_logout
+-rw-r--r-- 1 play1 play1  3771 Feb 25  2020 .bashrc
+-rw-r--r-- 1 root  root   4096 Dec 17 10:27 .gogo.swp
+drwxr-xr-x 1 play1 play1  4096 Dec 14 09:57 .landscape/
+-rw-rw-r-- 1 play1 play1     0 Dec 14 09:57 .motd_shown
+-rw-r--r-- 1 play1 play1   807 Feb 25  2020 .profile
+-rwxr-xr-x 1 root  root     95 Dec 17 11:08 arrtest1.sh*
+-rw-r--r-- 1 root  root      5 Dec 17 10:42 date_save
+-rw-r--r-- 1 root  root      0 Dec 17 09:35 for
+-rwxr-xr-x 1 root  root     63 Dec 17 09:38 for.sh*
+-rwxr-xr-x 1 root  root  17368 Dec 17 10:26 gogo*
+-rw-r--rw- 1 root  root    264 Dec 17 10:30 gogo.cpp
+-rwxr--r-- 1 root  root     54 Dec 17 10:28 gogo.sh*
+-rwxr-xr-x 1 root  root  17320 Dec 17 10:21 hello*
+-rw-r--rw- 1 play1 play1   126 Dec 17 10:17 hello.cpp
+-rwxr--r-- 1 root  root     56 Dec 17 10:18 hello.sh*
+-rwxr-xr-x 1 root  root     78 Dec 17 09:43 jinyoung.sh*
+-rwxr-xr-x 1 root  root    147 Dec 17 11:19 savevar.sh*
+-rwxr-xr-x 1 root  root    235 Dec 17 09:30 shell_script.sh*
+-rwxr-xr-x 1 root  root    125 Dec 17 11:25 varele.sh*
+root@DESKTOP-9KIEGIH:/home/play1# ./varele.sh
+ls pwd ps clear
+ls pwd ps clear 123 456
+root@DESKTOP-9KIEGIH:/home/play1# let z=12*5
+root@DESKTOP-9KIEGIH:/home/play1# echo $z
+60
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# chmod x+ expr.sh
+chmod: invalid mode: ‘x+’
+Try 'chmod --help' for more information.
+root@DESKTOP-9KIEGIH:/home/play1# chmod +x expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+-
+*
+/
+2
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+-
+*
+/
+2
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+-
+*
+/
+2
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+1
+12
+1
+2
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+-1
+
+12
+
+0
+
+./expr.sh: line 11: 4: command not found
+3
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+-1
+
+12
+
+0
+
+./expr.sh: line 11: 4: command not found
+3
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+
+[2]+  Stopped                 vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+-1
+12
+3
+./expr.sh: line 11: 4: command not found
+3
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+0
+16
+0
+./expr.sh: line 11: 4: command not found
+4
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+-1
+12
+3
+./expr.sh: line 11: 4: command not found
+3
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+-1
+12
+3
+./expr.sh: line 11: 4: command not found
+3
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+-1
+12
+3
+./expr.sh: line 11: 4: command not found
+3
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+-1
+12
+3
+3
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+-3
+28
+4
+4
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+-1
+12
+3
+./expr.sh: line 11: 4: command not found
+expr: syntax error: missing argument after ‘&’
+
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+-1
+12
+3
+expr: syntax error: unexpected argument ‘&&’
+
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+-1
+12
+3
+expr: syntax error: unexpected argument ‘-a’
+
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+-1
+12
+3
+expr: syntax error: unexpected argument ‘a’
+
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+-1
+12
+3
+expr: syntax error: unexpected argument ‘a’
+
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+-1
+12
+3
+expr: syntax error: unexpected argument ‘&a’
+
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+-1
+12
+3
+./expr.sh: line 11: unexpected EOF while looking for matching ``'
+./expr.sh: line 14: syntax error: unexpected end of file
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+-1
+12
+3
+./expr.sh: command substitution: line 11: syntax error near unexpected token `$X'
+./expr.sh: command substitution: line 11: `expr ($X \& $Y)'
+
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+-1
+12
+3
+3
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+-2
+35
+5
+5
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+-1
+12
+3
+expr: syntax error: unexpected argument ‘4’
+
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+-1
+2
+1
+expr: syntax error: unexpected argument ‘2’
+
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+-1
+2
+1
+expr: syntax error: unexpected argument ‘a’
+
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+-1
+2
+1
+1
+expr: syntax error: unexpected argument ‘l’
+
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+-1
+2
+1
+1
+1
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+0
+1
+0
+1
+1
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+0
+1
+0
+1
+1
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+
+[3]+  Stopped                 vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1#
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+2
+1
+0
+1
+1
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+1
+0
+expr: division by zero
+
+0
+1
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+1
+0
+0
+0
+1
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+1
+0
+0
+0
+1
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./expr.sh
+1
+0
+0
+0
+1
+root@DESKTOP-9KIEGIH:/home/play1# vi expr.sh
+root@DESKTOP-9KIEGIH:/home/play1# touch awk.sh
+root@DESKTOP-9KIEGIH:/home/play1# vi awk.sh
+root@DESKTOP-9KIEGIH:/home/play1# chmod +x awk.sh
+root@DESKTOP-9KIEGIH:/home/play1# ll
+total 84
+drwxr-xr-x 1 play1 play1  4096 Dec 17 12:22 ./
+drwxr-xr-x 1 root  root   4096 Dec 14 10:07 ../
+-rw-r--r-- 1 play1 play1   220 Feb 25  2020 .bash_logout
+-rw-r--r-- 1 play1 play1  3771 Feb 25  2020 .bashrc
+-rw-r--r-- 1 root  root   4096 Dec 17 12:15 .expr.sh.swo
+-rw-r--r-- 1 root  root   4096 Dec 17 11:53 .expr.sh.swp
+-rw-r--r-- 1 root  root   4096 Dec 17 10:27 .gogo.swp
+drwxr-xr-x 1 play1 play1  4096 Dec 14 09:57 .landscape/
+-rw-rw-r-- 1 play1 play1     0 Dec 14 09:57 .motd_shown
+-rw-r--r-- 1 play1 play1   807 Feb 25  2020 .profile
+-rwxr-xr-x 1 root  root     95 Dec 17 11:08 arrtest1.sh*
+-rwxr-xr-x 1 root  root    149 Dec 17 12:22 awk.sh*
+-rw-r--r-- 1 root  root      5 Dec 17 10:42 date_save
+-rwxr-xr-x 1 root  root    150 Dec 17 12:19 expr.sh*
+-rw-r--r-- 1 root  root      0 Dec 17 09:35 for
+-rwxr-xr-x 1 root  root     63 Dec 17 09:38 for.sh*
+-rwxr-xr-x 1 root  root  17368 Dec 17 10:26 gogo*
+-rw-r--rw- 1 root  root    264 Dec 17 10:30 gogo.cpp
+-rwxr--r-- 1 root  root     54 Dec 17 10:28 gogo.sh*
+-rwxr-xr-x 1 root  root  17320 Dec 17 10:21 hello*
+-rw-r--rw- 1 play1 play1   126 Dec 17 10:17 hello.cpp
+-rwxr--r-- 1 root  root     56 Dec 17 10:18 hello.sh*
+-rwxr-xr-x 1 root  root     78 Dec 17 09:43 jinyoung.sh*
+-rwxr-xr-x 1 root  root    147 Dec 17 11:19 savevar.sh*
+-rwxr-xr-x 1 root  root    235 Dec 17 09:30 shell_script.sh*
+-rwxr-xr-x 1 root  root    125 Dec 17 11:25 varele.sh*
+root@DESKTOP-9KIEGIH:/home/play1# ./awk.sh
+./awk.sh: line 6: {print: command not found
+Usage: awk [POSIX or GNU style options] -f progfile [--] file ...
+Usage: awk [POSIX or GNU style options] -f progfile [--] file ...
+Usage: awk [POSIX or GNU style options] [--] 'program' file ...
+Usage: awk [POSIX or GNU style options] [--] 'program' file ...
+POSIX options:          GNU long options: (standard)
+POSIX options:          GNU long options: (standard)
+        -f progfile             --file=progfile
+        -f progfile             --file=progfile
+        -F fs                   --field-separator=fs
+        -F fs                   --field-separator=fs
+        -v var=val              --assign=var=val
+        -v var=val              --assign=var=val
+Short options:          GNU long options: (extensions)
+Short options:          GNU long options: (extensions)
+        -b                      --characters-as-bytes
+        -b                      --characters-as-bytes
+        -c                      --traditional
+        -c                      --traditional
+        -C                      --copyright
+        -C                      --copyright
+        -d[file]                --dump-variables[=file]
+        -d[file]                --dump-variables[=file]
+        -D[file]                --debug[=file]
+        -D[file]                --debug[=file]
+        -e 'program-text'       --source='program-text'
+        -e 'program-text'       --source='program-text'
+        -E file                 --exec=file
+        -E file                 --exec=file
+        -g                      --gen-pot
+        -g                      --gen-pot
+        -h                      --help
+        -h                      --help
+        -i includefile          --include=includefile
+        -i includefile          --include=includefile
+        -l library              --load=library
+        -l library              --load=library
+        -L[fatal|invalid|no-ext]        --lint[=fatal|invalid|no-ext]
+        -L[fatal|invalid|no-ext]        --lint[=fatal|invalid|no-ext]
+        -M                      --bignum
+        -M                      --bignum
+        -N                      --use-lc-numeric
+        -N                      --use-lc-numeric
+        -n                      --non-decimal-data
+        -n                      --non-decimal-data
+        -o[file]                --pretty-print[=file]
+        -o[file]                --pretty-print[=file]
+        -O                      --optimize
+        -O                      --optimize
+        -p[file]                --profile[=file]
+        -p[file]                --profile[=file]
+        -P                      --posix
+        -P                      --posix
+        -r                      --re-interval
+        -r                      --re-interval
+        -s                      --no-optimize
+        -s                      --no-optimize
+        -S                      --sandbox
+        -S                      --sandbox
+        -t                      --lint-old
+        -t                      --lint-old
+        -V                      --version
+        -V                      --version
+
+To report bugs, see node `Bugs' in `gawk.info'
+which is section `Reporting Problems and Bugs' in the
+printed version.  This same information may be found at
+https://www.gnu.org/software/gawk/manual/html_node/Bugs.html.
+PLEASE do NOT try to report bugs by posting in comp.lang.awk,
+or by using a web forum such as Stack Overflow.
+
+
+To report bugs, see node `Bugs' in `gawk.info'
+which is section `Reporting Problems and Bugs' in the
+printed version.  This same information may be found at
+https://www.gnu.org/software/gawk/manual/html_node/Bugs.html.
+PLEASE do NOT try to report bugs by posting in comp.lang.awk,
+or by using a web forum such as Stack Overflow.
+
+gawk is a pattern scanning and processing language.
+By default it reads standard input and writes standard output.
+
+gawk is a pattern scanning and processing language.
+By default it reads standard input and writes standard output.
+
+Examples:
+        gawk '{ sum += $1 }; END { print sum }' file
+        gawk -F: '{ print $1 }' /etc/passwd
+Examples:
+        gawk '{ sum += $1 }; END { print sum }' file
+        gawk -F: '{ print $1 }' /etc/passwd
+./awk.sh: line 6: {print: command not found
+./awk.sh: line 10: {print: command not found
+Usage: awk [POSIX or GNU style options] -f progfile [--] file ...
+Usage: awk [POSIX or GNU style options] [--] 'program' file ...
+POSIX options:          GNU long options: (standard)
+        -f progfile             --file=progfile
+        -F fs                   --field-separator=fs
+        -v var=val              --assign=var=val
+Short options:          GNU long options: (extensions)
+        -b                      --characters-as-bytes
+        -c                      --traditional
+        -C                      --copyright
+        -d[file]                --dump-variables[=file]
+        -D[file]                --debug[=file]
+        -e 'program-text'       --source='program-text'
+        -E file                 --exec=file
+        -g                      --gen-pot
+        -h                      --help
+        -i includefile          --include=includefile
+        -l library              --load=library
+        -L[fatal|invalid|no-ext]        --lint[=fatal|invalid|no-ext]
+        -M                      --bignum
+        -N                      --use-lc-numeric
+        -n                      --non-decimal-data
+        -o[file]                --pretty-print[=file]
+Usage: awk [POSIX or GNU style options] -f progfile [--] file ...
+        -O                      --optimize
+Usage: awk [POSIX or GNU style options] [--] 'program' file ...
+        -p[file]                --profile[=file]
+POSIX options:          GNU long options: (standard)
+        -P                      --posix
+        -f progfile             --file=progfile
+        -r                      --re-interval
+        -F fs                   --field-separator=fs
+        -s                      --no-optimize
+        -v var=val              --assign=var=val
+        -S                      --sandbox
+Short options:          GNU long options: (extensions)
+        -t                      --lint-old
+        -b                      --characters-as-bytes
+        -V                      --version
+        -c                      --traditional
+
+To report bugs, see node `Bugs' in `gawk.info'
+which is section `Reporting Problems and Bugs' in the
+printed version.  This same information may be found at
+https://www.gnu.org/software/gawk/manual/html_node/Bugs.html.
+PLEASE do NOT try to report bugs by posting in comp.lang.awk,
+or by using a web forum such as Stack Overflow.
+
+        -C                      --copyright
+gawk is a pattern scanning and processing language.
+By default it reads standard input and writes standard output.
+
+        -d[file]                --dump-variables[=file]
+Examples:
+        gawk '{ sum += $1 }; END { print sum }' file
+        gawk -F: '{ print $1 }' /etc/passwd
+        -D[file]                --debug[=file]
+        -e 'program-text'       --source='program-text'
+        -E file                 --exec=file
+        -g                      --gen-pot
+        -h                      --help
+./awk.sh: line 10: {print: command not found
+        -i includefile          --include=includefile
+        -l library              --load=library
+        -L[fatal|invalid|no-ext]        --lint[=fatal|invalid|no-ext]
+        -M                      --bignum
+        -N                      --use-lc-numeric
+        -n                      --non-decimal-data
+        -o[file]                --pretty-print[=file]
+        -O                      --optimize
+        -p[file]                --profile[=file]
+        -P                      --posix
+        -r                      --re-interval
+        -s                      --no-optimize
+        -S                      --sandbox
+        -t                      --lint-old
+        -V                      --version
+
+To report bugs, see node `Bugs' in `gawk.info'
+which is section `Reporting Problems and Bugs' in the
+printed version.  This same information may be found at
+https://www.gnu.org/software/gawk/manual/html_node/Bugs.html.
+PLEASE do NOT try to report bugs by posting in comp.lang.awk,
+or by using a web forum such as Stack Overflow.
+
+gawk is a pattern scanning and processing language.
+By default it reads standard input and writes standard output.
+
+Examples:
+        gawk '{ sum += $1 }; END { print sum }' file
+        gawk -F: '{ print $1 }' /etc/passwd
+root@DESKTOP-9KIEGIH:/home/play1# ./awk.sh
+./awk.sh: line 6: {print: command not found
+Usage: awk [POSIX or GNU style options] -f progfile [--] file ...
+Usage: awk [POSIX or GNU style options] [--] 'program' file ...
+Usage: awk [POSIX or GNU style options] -f progfile [--] file ...
+POSIX options:          GNU long options: (standard)
+Usage: awk [POSIX or GNU style options] [--] 'program' file ...
+        -f progfile             --file=progfile
+POSIX options:          GNU long options: (standard)
+        -F fs                   --field-separator=fs
+        -f progfile             --file=progfile
+        -v var=val              --assign=var=val
+        -F fs                   --field-separator=fs
+Short options:          GNU long options: (extensions)
+        -v var=val              --assign=var=val
+        -b                      --characters-as-bytes
+Short options:          GNU long options: (extensions)
+        -c                      --traditional
+        -b                      --characters-as-bytes
+        -C                      --copyright
+        -c                      --traditional
+        -d[file]                --dump-variables[=file]
+        -C                      --copyright
+        -D[file]                --debug[=file]
+        -d[file]                --dump-variables[=file]
+        -e 'program-text'       --source='program-text'
+        -D[file]                --debug[=file]
+        -E file                 --exec=file
+        -e 'program-text'       --source='program-text'
+        -g                      --gen-pot
+        -E file                 --exec=file
+        -h                      --help
+        -g                      --gen-pot
+        -i includefile          --include=includefile
+        -h                      --help
+        -l library              --load=library
+        -i includefile          --include=includefile
+        -L[fatal|invalid|no-ext]        --lint[=fatal|invalid|no-ext]
+        -l library              --load=library
+        -M                      --bignum
+        -L[fatal|invalid|no-ext]        --lint[=fatal|invalid|no-ext]
+        -N                      --use-lc-numeric
+        -M                      --bignum
+        -n                      --non-decimal-data
+        -N                      --use-lc-numeric
+        -o[file]                --pretty-print[=file]
+        -n                      --non-decimal-data
+        -O                      --optimize
+        -o[file]                --pretty-print[=file]
+        -p[file]                --profile[=file]
+        -O                      --optimize
+        -P                      --posix
+        -p[file]                --profile[=file]
+        -r                      --re-interval
+        -P                      --posix
+        -s                      --no-optimize
+        -r                      --re-interval
+        -S                      --sandbox
+        -s                      --no-optimize
+        -t                      --lint-old
+        -S                      --sandbox
+        -V                      --version
+        -t                      --lint-old
+
+To report bugs, see node `Bugs' in `gawk.info'
+which is section `Reporting Problems and Bugs' in the
+printed version.  This same information may be found at
+https://www.gnu.org/software/gawk/manual/html_node/Bugs.html.
+PLEASE do NOT try to report bugs by posting in comp.lang.awk,
+or by using a web forum such as Stack Overflow.
+
+        -V                      --version
+gawk is a pattern scanning and processing language.
+By default it reads standard input and writes standard output.
+
+
+To report bugs, see node `Bugs' in `gawk.info'
+which is section `Reporting Problems and Bugs' in the
+printed version.  This same information may be found at
+https://www.gnu.org/software/gawk/manual/html_node/Bugs.html.
+PLEASE do NOT try to report bugs by posting in comp.lang.awk,
+or by using a web forum such as Stack Overflow.
+
+Examples:
+        gawk '{ sum += $1 }; END { print sum }' file
+        gawk -F: '{ print $1 }' /etc/passwd
+gawk is a pattern scanning and processing language.
+By default it reads standard input and writes standard output.
+
+Examples:
+        gawk '{ sum += $1 }; END { print sum }' file
+        gawk -F: '{ print $1 }' /etc/passwd
+./awk.sh: line 6: {print: command not found
+./awk.sh: line 10: {print: command not found
+Usage: awk [POSIX or GNU style options] -f progfile [--] file ...
+Usage: awk [POSIX or GNU style options] -f progfile [--] file ...
+Usage: awk [POSIX or GNU style options] [--] 'program' file ...
+Usage: awk [POSIX or GNU style options] [--] 'program' file ...
+POSIX options:          GNU long options: (standard)
+POSIX options:          GNU long options: (standard)
+        -f progfile             --file=progfile
+        -f progfile             --file=progfile
+        -F fs                   --field-separator=fs
+        -F fs                   --field-separator=fs
+        -v var=val              --assign=var=val
+        -v var=val              --assign=var=val
+Short options:          GNU long options: (extensions)
+Short options:          GNU long options: (extensions)
+        -b                      --characters-as-bytes
+        -b                      --characters-as-bytes
+        -c                      --traditional
+        -c                      --traditional
+        -C                      --copyright
+        -C                      --copyright
+        -d[file]                --dump-variables[=file]
+        -d[file]                --dump-variables[=file]
+        -D[file]                --debug[=file]
+        -D[file]                --debug[=file]
+        -e 'program-text'       --source='program-text'
+        -e 'program-text'       --source='program-text'
+        -E file                 --exec=file
+        -E file                 --exec=file
+        -g                      --gen-pot
+        -g                      --gen-pot
+        -h                      --help
+        -h                      --help
+        -i includefile          --include=includefile
+        -i includefile          --include=includefile
+        -l library              --load=library
+        -l library              --load=library
+        -L[fatal|invalid|no-ext]        --lint[=fatal|invalid|no-ext]
+        -L[fatal|invalid|no-ext]        --lint[=fatal|invalid|no-ext]
+        -M                      --bignum
+        -M                      --bignum
+        -N                      --use-lc-numeric
+        -N                      --use-lc-numeric
+        -n                      --non-decimal-data
+        -n                      --non-decimal-data
+        -o[file]                --pretty-print[=file]
+        -o[file]                --pretty-print[=file]
+        -O                      --optimize
+        -O                      --optimize
+        -p[file]                --profile[=file]
+        -p[file]                --profile[=file]
+        -P                      --posix
+        -P                      --posix
+        -r                      --re-interval
+        -r                      --re-interval
+        -s                      --no-optimize
+        -s                      --no-optimize
+        -S                      --sandbox
+        -S                      --sandbox
+        -t                      --lint-old
+        -t                      --lint-old
+        -V                      --version
+        -V                      --version
+
+To report bugs, see node `Bugs' in `gawk.info'
+which is section `Reporting Problems and Bugs' in the
+printed version.  This same information may be found at
+https://www.gnu.org/software/gawk/manual/html_node/Bugs.html.
+PLEASE do NOT try to report bugs by posting in comp.lang.awk,
+or by using a web forum such as Stack Overflow.
+
+
+To report bugs, see node `Bugs' in `gawk.info'
+which is section `Reporting Problems and Bugs' in the
+printed version.  This same information may be found at
+https://www.gnu.org/software/gawk/manual/html_node/Bugs.html.
+PLEASE do NOT try to report bugs by posting in comp.lang.awk,
+or by using a web forum such as Stack Overflow.
+
+gawk is a pattern scanning and processing language.
+By default it reads standard input and writes standard output.
+
+gawk is a pattern scanning and processing language.
+By default it reads standard input and writes standard output.
+
+Examples:
+        gawk '{ sum += $1 }; END { print sum }' file
+        gawk -F: '{ print $1 }' /etc/passwd
+Examples:
+        gawk '{ sum += $1 }; END { print sum }' file
+        gawk -F: '{ print $1 }' /etc/passwd
+./awk.sh: line 10: {print: command not found
+root@DESKTOP-9KIEGIH:/home/play1# ll
+total 84
+drwxr-xr-x 1 play1 play1  4096 Dec 17 12:22 ./
+drwxr-xr-x 1 root  root   4096 Dec 14 10:07 ../
+-rw-r--r-- 1 play1 play1   220 Feb 25  2020 .bash_logout
+-rw-r--r-- 1 play1 play1  3771 Feb 25  2020 .bashrc
+-rw-r--r-- 1 root  root   4096 Dec 17 12:15 .expr.sh.swo
+-rw-r--r-- 1 root  root   4096 Dec 17 11:53 .expr.sh.swp
+-rw-r--r-- 1 root  root   4096 Dec 17 10:27 .gogo.swp
+drwxr-xr-x 1 play1 play1  4096 Dec 14 09:57 .landscape/
+-rw-rw-r-- 1 play1 play1     0 Dec 14 09:57 .motd_shown
+-rw-r--r-- 1 play1 play1   807 Feb 25  2020 .profile
+-rwxr-xr-x 1 root  root     95 Dec 17 11:08 arrtest1.sh*
+-rwxr-xr-x 1 root  root    149 Dec 17 12:22 awk.sh*
+-rw-r--r-- 1 root  root      5 Dec 17 10:42 date_save
+-rwxr-xr-x 1 root  root    150 Dec 17 12:19 expr.sh*
+-rw-r--r-- 1 root  root      0 Dec 17 09:35 for
+-rwxr-xr-x 1 root  root     63 Dec 17 09:38 for.sh*
+-rwxr-xr-x 1 root  root  17368 Dec 17 10:26 gogo*
+-rw-r--rw- 1 root  root    264 Dec 17 10:30 gogo.cpp
+-rwxr--r-- 1 root  root     54 Dec 17 10:28 gogo.sh*
+-rwxr-xr-x 1 root  root  17320 Dec 17 10:21 hello*
+-rw-r--rw- 1 play1 play1   126 Dec 17 10:17 hello.cpp
+-rwxr--r-- 1 root  root     56 Dec 17 10:18 hello.sh*
+-rwxr-xr-x 1 root  root     78 Dec 17 09:43 jinyoung.sh*
+-rwxr-xr-x 1 root  root    147 Dec 17 11:19 savevar.sh*
+-rwxr-xr-x 1 root  root    235 Dec 17 09:30 shell_script.sh*
+-rwxr-xr-x 1 root  root    125 Dec 17 11:25 varele.sh*
+root@DESKTOP-9KIEGIH:/home/play1#  ./awk.sh
+./awk.sh: line 6: {print: command not found
+Usage: awk [POSIX or GNU style options] -f progfile [--] file ...
+Usage: awk [POSIX or GNU style options] [--] 'program' file ...
+POSIX options:          GNU long options: (standard)
+        -f progfile             --file=progfile
+        -F fs                   --field-separator=fs
+        -v var=val              --assign=var=val
+Short options:          GNU long options: (extensions)
+        -b                      --characters-as-bytes
+Usage: awk [POSIX or GNU style options] -f progfile [--] file ...
+        -c                      --traditional
+Usage: awk [POSIX or GNU style options] [--] 'program' file ...
+        -C                      --copyright
+POSIX options:          GNU long options: (standard)
+        -d[file]                --dump-variables[=file]
+        -f progfile             --file=progfile
+        -D[file]                --debug[=file]
+        -F fs                   --field-separator=fs
+        -e 'program-text'       --source='program-text'
+        -v var=val              --assign=var=val
+        -E file                 --exec=file
+Short options:          GNU long options: (extensions)
+        -g                      --gen-pot
+        -b                      --characters-as-bytes
+        -h                      --help
+        -c                      --traditional
+        -i includefile          --include=includefile
+        -C                      --copyright
+        -l library              --load=library
+        -d[file]                --dump-variables[=file]
+        -L[fatal|invalid|no-ext]        --lint[=fatal|invalid|no-ext]
+        -D[file]                --debug[=file]
+        -M                      --bignum
+        -e 'program-text'       --source='program-text'
+        -N                      --use-lc-numeric
+        -E file                 --exec=file
+        -n                      --non-decimal-data
+        -g                      --gen-pot
+        -o[file]                --pretty-print[=file]
+        -h                      --help
+        -O                      --optimize
+        -i includefile          --include=includefile
+        -p[file]                --profile[=file]
+        -l library              --load=library
+        -P                      --posix
+        -L[fatal|invalid|no-ext]        --lint[=fatal|invalid|no-ext]
+        -r                      --re-interval
+        -M                      --bignum
+        -s                      --no-optimize
+        -N                      --use-lc-numeric
+        -S                      --sandbox
+        -n                      --non-decimal-data
+        -t                      --lint-old
+        -o[file]                --pretty-print[=file]
+        -V                      --version
+        -O                      --optimize
+
+To report bugs, see node `Bugs' in `gawk.info'
+which is section `Reporting Problems and Bugs' in the
+printed version.  This same information may be found at
+https://www.gnu.org/software/gawk/manual/html_node/Bugs.html.
+PLEASE do NOT try to report bugs by posting in comp.lang.awk,
+or by using a web forum such as Stack Overflow.
+
+        -p[file]                --profile[=file]
+gawk is a pattern scanning and processing language.
+By default it reads standard input and writes standard output.
+
+        -P                      --posix
+Examples:
+        gawk '{ sum += $1 }; END { print sum }' file
+        gawk -F: '{ print $1 }' /etc/passwd
+        -r                      --re-interval
+        -s                      --no-optimize
+        -S                      --sandbox
+        -t                      --lint-old
+        -V                      --version
+
+To report bugs, see node `Bugs' in `gawk.info'
+which is section `Reporting Problems and Bugs' in the
+printed version.  This same information may be found at
+https://www.gnu.org/software/gawk/manual/html_node/Bugs.html.
+PLEASE do NOT try to report bugs by posting in comp.lang.awk,
+or by using a web forum such as Stack Overflow.
+
+gawk is a pattern scanning and processing language.
+By default it reads standard input and writes standard output.
+
+Examples:
+        gawk '{ sum += $1 }; END { print sum }' file
+        gawk -F: '{ print $1 }' /etc/passwd
+./awk.sh: line 6: {print: command not found
+./awk.sh: line 10: {print: command not found
+Usage: awk [POSIX or GNU style options] -f progfile [--] file ...
+Usage: awk [POSIX or GNU style options] [--] 'program' file ...
+POSIX options:          GNU long options: (standard)
+Usage: awk [POSIX or GNU style options] -f progfile [--] file ...
+        -f progfile             --file=progfile
+Usage: awk [POSIX or GNU style options] [--] 'program' file ...
+        -F fs                   --field-separator=fs
+POSIX options:          GNU long options: (standard)
+        -v var=val              --assign=var=val
+        -f progfile             --file=progfile
+Short options:          GNU long options: (extensions)
+        -F fs                   --field-separator=fs
+        -b                      --characters-as-bytes
+        -v var=val              --assign=var=val
+        -c                      --traditional
+Short options:          GNU long options: (extensions)
+        -C                      --copyright
+        -b                      --characters-as-bytes
+        -d[file]                --dump-variables[=file]
+        -c                      --traditional
+        -D[file]                --debug[=file]
+        -C                      --copyright
+        -e 'program-text'       --source='program-text'
+        -d[file]                --dump-variables[=file]
+        -E file                 --exec=file
+        -D[file]                --debug[=file]
+        -g                      --gen-pot
+        -e 'program-text'       --source='program-text'
+        -h                      --help
+        -E file                 --exec=file
+        -i includefile          --include=includefile
+        -g                      --gen-pot
+        -l library              --load=library
+        -h                      --help
+        -L[fatal|invalid|no-ext]        --lint[=fatal|invalid|no-ext]
+        -i includefile          --include=includefile
+        -M                      --bignum
+        -l library              --load=library
+        -N                      --use-lc-numeric
+        -L[fatal|invalid|no-ext]        --lint[=fatal|invalid|no-ext]
+        -n                      --non-decimal-data
+        -M                      --bignum
+        -o[file]                --pretty-print[=file]
+        -N                      --use-lc-numeric
+        -O                      --optimize
+        -n                      --non-decimal-data
+        -p[file]                --profile[=file]
+        -o[file]                --pretty-print[=file]
+        -P                      --posix
+        -O                      --optimize
+        -r                      --re-interval
+        -p[file]                --profile[=file]
+        -s                      --no-optimize
+        -P                      --posix
+        -S                      --sandbox
+        -r                      --re-interval
+        -t                      --lint-old
+        -s                      --no-optimize
+        -V                      --version
+        -S                      --sandbox
+
+To report bugs, see node `Bugs' in `gawk.info'
+which is section `Reporting Problems and Bugs' in the
+printed version.  This same information may be found at
+https://www.gnu.org/software/gawk/manual/html_node/Bugs.html.
+PLEASE do NOT try to report bugs by posting in comp.lang.awk,
+or by using a web forum such as Stack Overflow.
+
+        -t                      --lint-old
+gawk is a pattern scanning and processing language.
+By default it reads standard input and writes standard output.
+
+        -V                      --version
+Examples:
+        gawk '{ sum += $1 }; END { print sum }' file
+        gawk -F: '{ print $1 }' /etc/passwd
+
+To report bugs, see node `Bugs' in `gawk.info'
+which is section `Reporting Problems and Bugs' in the
+printed version.  This same information may be found at
+https://www.gnu.org/software/gawk/manual/html_node/Bugs.html.
+PLEASE do NOT try to report bugs by posting in comp.lang.awk,
+or by using a web forum such as Stack Overflow.
+
+gawk is a pattern scanning and processing language.
+By default it reads standard input and writes standard output.
+
+Examples:
+        gawk '{ sum += $1 }; END { print sum }' file
+        gawk -F: '{ print $1 }' /etc/passwd
+./awk.sh: line 10: {print: command not found
+root@DESKTOP-9KIEGIH:/home/play1# ./awk.sh
+./awk.sh: line 6: {print: command not found
+Usage: awk [POSIX or GNU style options] -f progfile [--] file ...
+Usage: awk [POSIX or GNU style options] [--] 'program' file ...
+POSIX options:          GNU long options: (standard)
+        -f progfile             --file=progfile
+Usage: awk [POSIX or GNU style options] -f progfile [--] file ...
+        -F fs                   --field-separator=fs
+Usage: awk [POSIX or GNU style options] [--] 'program' file ...
+        -v var=val              --assign=var=val
+POSIX options:          GNU long options: (standard)
+Short options:          GNU long options: (extensions)
+        -f progfile             --file=progfile
+        -b                      --characters-as-bytes
+        -F fs                   --field-separator=fs
+        -c                      --traditional
+        -v var=val              --assign=var=val
+        -C                      --copyright
+Short options:          GNU long options: (extensions)
+        -d[file]                --dump-variables[=file]
+        -b                      --characters-as-bytes
+        -D[file]                --debug[=file]
+        -c                      --traditional
+        -e 'program-text'       --source='program-text'
+        -C                      --copyright
+        -E file                 --exec=file
+        -d[file]                --dump-variables[=file]
+        -g                      --gen-pot
+        -D[file]                --debug[=file]
+        -h                      --help
+        -e 'program-text'       --source='program-text'
+        -i includefile          --include=includefile
+        -E file                 --exec=file
+        -l library              --load=library
+        -g                      --gen-pot
+        -L[fatal|invalid|no-ext]        --lint[=fatal|invalid|no-ext]
+        -h                      --help
+        -M                      --bignum
+        -i includefile          --include=includefile
+        -N                      --use-lc-numeric
+        -l library              --load=library
+        -n                      --non-decimal-data
+        -L[fatal|invalid|no-ext]        --lint[=fatal|invalid|no-ext]
+        -o[file]                --pretty-print[=file]
+        -M                      --bignum
+        -O                      --optimize
+        -N                      --use-lc-numeric
+        -p[file]                --profile[=file]
+        -n                      --non-decimal-data
+        -P                      --posix
+        -o[file]                --pretty-print[=file]
+        -r                      --re-interval
+        -O                      --optimize
+        -s                      --no-optimize
+        -p[file]                --profile[=file]
+        -S                      --sandbox
+        -P                      --posix
+        -t                      --lint-old
+        -r                      --re-interval
+        -V                      --version
+        -s                      --no-optimize
+
+To report bugs, see node `Bugs' in `gawk.info'
+which is section `Reporting Problems and Bugs' in the
+printed version.  This same information may be found at
+https://www.gnu.org/software/gawk/manual/html_node/Bugs.html.
+PLEASE do NOT try to report bugs by posting in comp.lang.awk,
+or by using a web forum such as Stack Overflow.
+
+        -S                      --sandbox
+gawk is a pattern scanning and processing language.
+By default it reads standard input and writes standard output.
+
+        -t                      --lint-old
+Examples:
+        gawk '{ sum += $1 }; END { print sum }' file
+        gawk -F: '{ print $1 }' /etc/passwd
+        -V                      --version
+
+To report bugs, see node `Bugs' in `gawk.info'
+which is section `Reporting Problems and Bugs' in the
+printed version.  This same information may be found at
+https://www.gnu.org/software/gawk/manual/html_node/Bugs.html.
+PLEASE do NOT try to report bugs by posting in comp.lang.awk,
+or by using a web forum such as Stack Overflow.
+
+gawk is a pattern scanning and processing language.
+By default it reads standard input and writes standard output.
+
+Examples:
+        gawk '{ sum += $1 }; END { print sum }' file
+        gawk -F: '{ print $1 }' /etc/passwd
+./awk.sh: line 6: {print: command not found
+./awk.sh: line 10: {print: command not found
+Usage: awk [POSIX or GNU style options] -f progfile [--] file ...
+Usage: awk [POSIX or GNU style options] [--] 'program' file ...
+Usage: awk [POSIX or GNU style options] -f progfile [--] file ...
+POSIX options:          GNU long options: (standard)
+Usage: awk [POSIX or GNU style options] [--] 'program' file ...
+        -f progfile             --file=progfile
+POSIX options:          GNU long options: (standard)
+        -F fs                   --field-separator=fs
+        -f progfile             --file=progfile
+        -v var=val              --assign=var=val
+        -F fs                   --field-separator=fs
+Short options:          GNU long options: (extensions)
+        -v var=val              --assign=var=val
+        -b                      --characters-as-bytes
+Short options:          GNU long options: (extensions)
+        -c                      --traditional
+        -b                      --characters-as-bytes
+        -C                      --copyright
+        -c                      --traditional
+        -d[file]                --dump-variables[=file]
+        -C                      --copyright
+        -D[file]                --debug[=file]
+        -d[file]                --dump-variables[=file]
+        -e 'program-text'       --source='program-text'
+        -D[file]                --debug[=file]
+        -E file                 --exec=file
+        -e 'program-text'       --source='program-text'
+        -g                      --gen-pot
+        -E file                 --exec=file
+        -h                      --help
+        -g                      --gen-pot
+        -i includefile          --include=includefile
+        -h                      --help
+        -l library              --load=library
+        -i includefile          --include=includefile
+        -L[fatal|invalid|no-ext]        --lint[=fatal|invalid|no-ext]
+        -l library              --load=library
+        -M                      --bignum
+        -L[fatal|invalid|no-ext]        --lint[=fatal|invalid|no-ext]
+        -N                      --use-lc-numeric
+        -M                      --bignum
+        -n                      --non-decimal-data
+        -N                      --use-lc-numeric
+        -o[file]                --pretty-print[=file]
+        -n                      --non-decimal-data
+        -O                      --optimize
+        -o[file]                --pretty-print[=file]
+        -p[file]                --profile[=file]
+        -O                      --optimize
+        -P                      --posix
+        -p[file]                --profile[=file]
+        -r                      --re-interval
+        -P                      --posix
+        -s                      --no-optimize
+        -r                      --re-interval
+        -S                      --sandbox
+        -s                      --no-optimize
+        -t                      --lint-old
+        -S                      --sandbox
+        -V                      --version
+        -t                      --lint-old
+
+To report bugs, see node `Bugs' in `gawk.info'
+which is section `Reporting Problems and Bugs' in the
+printed version.  This same information may be found at
+https://www.gnu.org/software/gawk/manual/html_node/Bugs.html.
+PLEASE do NOT try to report bugs by posting in comp.lang.awk,
+or by using a web forum such as Stack Overflow.
+
+        -V                      --version
+gawk is a pattern scanning and processing language.
+By default it reads standard input and writes standard output.
+
+
+To report bugs, see node `Bugs' in `gawk.info'
+which is section `Reporting Problems and Bugs' in the
+printed version.  This same information may be found at
+https://www.gnu.org/software/gawk/manual/html_node/Bugs.html.
+PLEASE do NOT try to report bugs by posting in comp.lang.awk,
+or by using a web forum such as Stack Overflow.
+
+Examples:
+        gawk '{ sum += $1 }; END { print sum }' file
+        gawk -F: '{ print $1 }' /etc/passwd
+gawk is a pattern scanning and processing language.
+By default it reads standard input and writes standard output.
+
+Examples:
+        gawk '{ sum += $1 }; END { print sum }' file
+        gawk -F: '{ print $1 }' /etc/passwd
+./awk.sh: line 10: {print: command not found
+root@DESKTOP-9KIEGIH:/home/play1# vi awk.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./awk.sh
+0
+0
+0
+awk: cmd. line:1: (FILENAME=- FNR=1) fatal: division by zero attempted
+root@DESKTOP-9KIEGIH:/home/play1# vi awk.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./awk.sh
+awk: cmd. line:1: {print
+awk: cmd. line:1:       ^ unexpected newline or end of string
+awk: cmd. line:1: {print
+awk: cmd. line:1:       ^ unexpected newline or end of string
+awk: cmd. line:1: {print
+awk: cmd. line:1:       ^ unexpected newline or end of string
+awk: cmd. line:1: {print
+awk: cmd. line:1:       ^ unexpected newline or end of string
+root@DESKTOP-9KIEGIH:/home/play1# vi awk.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./awk.sh
+7
+-1
+12
+0.75
+root@DESKTOP-9KIEGIH:/home/play1# vi awk.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./awk.sh
+./awk.sh: line 4: {print $1+$2}: command not found
+./awk.sh: line 6: {print $1-$2}: command not found
+./awk.sh: line 8: {print $1*$2}: command not found
+./awk.sh: line 10: {print $1/$2}: No such file or directory
+root@DESKTOP-9KIEGIH:/home/play1# vi awk.sh
+
+root@DESKTOP-9KIEGIH:/home/play1# ./awk.sh
+7
+-1
+12
+0.75
+root@DESKTOP-9KIEGIH:/home/play1# touch bc.sh
+root@DESKTOP-9KIEGIH:/home/play1# vi bc.sh
+root@DESKTOP-9KIEGIH:/home/play1# chmod +x bc.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./bc.sh
+46
+-22
+408
+root@DESKTOP-9KIEGIH:/home/play1# vi bc.sh
+root@DESKTOP-9KIEGIH:/home/play1#
+root@DESKTOP-9KIEGIH:/home/play1# ./bc.sh
+46
+-22
+408
+0
+.35
+2
+2.04761
+root@DESKTOP-9KIEGIH:/home/play1# vi bc.sh
+root@DESKTOP-9KIEGIH:/home/play1# ./bc.sh
+46
+-22
+408
+0
+.35
+2
+2.04761
+13407807929942597099574024998205846127479365820592393377723561443721\
+76403007354697680187429816690342769003185818648605085375388281194656\
+9946433649006084096
