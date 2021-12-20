@@ -1,0 +1,23 @@
+{
+    "name": "21.12.19-2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "cookie-parser": "^1.4.6",
+        "debug": "^4.3.3",
+        "express": "^4.17.2",
+        "http-errors": "^2.0.0",
+        "jade": "^1.11.0",
+        "mariadb": "^2.5.5",
+        "morgan": "^1.10.0",
+        "mysql": "^2.18.1",
+        "nodemon": "^2.0.15"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "nodemon app.js"
+    },
+    "author": "",
+    "license": "ISC"
+}
