@@ -1,0 +1,11 @@
+#!/bin/bash
+
+startDate=`date +"%Y%m%d" -d "20211101"`
+endDate=`date +"%Y%m%d" -d "20211201"
+
+while [ "$startDate" != "$endDate" ];
+do
+        echo $startDate
+
+startDate=`date + "%Y%m%d" -d "$startDate + 1 day"`;
+done
